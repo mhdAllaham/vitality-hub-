@@ -1,0 +1,68 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id            String    @id @default(cuid())
+  name          String?
+  email         String?   @unique
+  password      String?
+  image         String?
+  healthData    HealthData?
+  createdAt     DateTime  @default(now())
+  updatedAt     DateTime  @updatedAt
+}
+
+model HealthData {
+  id          String   @id @default(cuid())
+  userId      String   @unique
+  user        User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  weight      Float?
+  height      Float?
+  age         Int?
+  bmi         Float?
+  bmiClass    String?
+  updatedAt   DateTime @updatedAt
+}
+
+model HealthTip {
+  id          String   @id @default(cuid())
+  content     String
+  icon        String?
+  createdAt   DateTime @default(now())
+}
+
+model Exercise {
+  id          String   @id @default(cuid())
+  name        String
+  description String
+  image       String?
+  category    String?
+  createdAt   DateTime @default(now())
+}
+
+model MealPlan {
+  id          String   @id @default(cuid())
+  type        String   // Breakfast, Lunch, Dinner
+  name        String
+  description String
+  image       String?
+  createdAt   DateTime @default(now())
+}
+
+model HealthyFood {
+  id          String   @id @default(cuid())
+  category    String   // Fruits, Vegetables, Herbs
+  name        String
+  benefits    String
+  image       String?
+  createdAt   DateTime @default(now())
+}
