@@ -16,6 +16,7 @@ model User {
   email         String?   @unique
   password      String?
   image         String?
+  role          String    @default("USER")
   healthData    HealthData?
   createdAt     DateTime  @default(now())
   updatedAt     DateTime  @updatedAt
@@ -35,34 +36,42 @@ model HealthData {
 
 model HealthTip {
   id          String   @id @default(cuid())
-  content     String
-  icon        String?
+  contentEn   String
+  contentAr   String
   createdAt   DateTime @default(now())
 }
 
 model Exercise {
-  id          String   @id @default(cuid())
-  name        String
-  description String
-  image       String?
-  category    String?
-  createdAt   DateTime @default(now())
+  id            String   @id @default(cuid())
+  nameEn        String
+  nameAr        String
+  descriptionEn String
+  descriptionAr String
+  image         String?
+  categoryEn    String?
+  categoryAr    String?
+  createdAt     DateTime @default(now())
 }
 
 model MealPlan {
-  id          String   @id @default(cuid())
-  type        String   // Breakfast, Lunch, Dinner
-  name        String
-  description String
-  image       String?
-  createdAt   DateTime @default(now())
+  id            String   @id @default(cuid())
+  type          String   // Breakfast, Lunch, Dinner
+  nameEn        String
+  nameAr        String
+  descriptionEn String
+  descriptionAr String
+  image         String?
+  createdAt     DateTime @default(now())
 }
 
 model HealthyFood {
   id          String   @id @default(cuid())
-  category    String   // Fruits, Vegetables, Herbs
-  name        String
-  benefits    String
+  categoryEn  String   // Fruits, Vegetables, Herbs
+  categoryAr  String
+  nameEn      String
+  nameAr      String
+  benefitsEn  String
+  benefitsAr  String
   image       String?
   createdAt   DateTime @default(now())
 }

@@ -1,8 +1,8 @@
-'use client';
-
 import { useState } from 'react';
+import { useLanguage } from '@/context/LanguageContext';
 
 export default function HealthTipCard({ initialTip }) {
+    const { t, language } = useLanguage();
     const [tip, setTip] = useState(initialTip);
     const [loading, setLoading] = useState(false);
 
@@ -19,17 +19,16 @@ export default function HealthTipCard({ initialTip }) {
         }
     };
 
+    const tipContent = language === 'ar' ? tip?.contentAr : tip?.contentEn;
+
     return (
         <div className="card glass" style={{ minHeight: '200px', display: 'flex', flexDirection: 'column', justifyContent: 'space-between', borderLeft: '4px solid var(--primary)' }}>
             <div>
                 <div style={{ display: 'flex', alignItems: 'center', gap: '1rem', marginBottom: '1.2rem' }}>
-                    <div style={{ fontSize: '2rem', background: 'rgba(34, 197, 94, 0.1)', width: '50px', height: '50px', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                        {tip?.icon || '💡'}
-                    </div>
-                    <h3 style={{ fontSize: '1.2rem' }}>Daily Health Tip</h3>
+                    <h3 style={{ fontSize: '1.2rem' }}>{t('healthTip')}</h3>
                 </div>
                 <p style={{ fontSize: '1.1rem', color: '#e4e4e7', lineHeight: '1.6', fontStyle: 'italic' }}>
-                    &quot;{tip?.content || 'Loading tip...'}&quot;
+                    &quot;{tipContent || t('noTip')}&quot;
                 </p>
             </div>
 
@@ -49,7 +48,7 @@ export default function HealthTipCard({ initialTip }) {
                         opacity: loading ? 0.5 : 1
                     }}
                 >
-                    {loading ? 'Refreshing...' : 'Get another tip ↻'}
+                    {loading ? `${t('refreshTip')}...` : `${t('refreshTip')} ↻`}
                 </button>
             </div>
         </div>

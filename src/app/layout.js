@@ -2,9 +2,13 @@ import './globals.css';
 import ClientSessionProvider from '@/components/SessionProvider';
 import UserMenu from '@/components/UserMenu';
 import Link from 'next/link';
+import { LanguageProvider } from '@/context/LanguageContext';
+import LanguageDirectionHandler from '@/components/LanguageDirectionHandler';
+import LanguageSwitcher from '@/components/LanguageSwitcher';
+import NavLinks from '@/components/NavLinks';
 
 export const metadata = {
-  title: 'Antigravity Fit - Premium Health & Fitness',
+  title: 'Vitality Hub - Premium Health & Fitness',
   description: 'Your personal health and fitness companion',
 };
 
@@ -12,22 +16,23 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-        <ClientSessionProvider>
-          <header>
-            <Link href="/" className="logo">ANTIGRAVITY FIT</Link>
-            <nav>
-              <ul>
-                <li><Link href="/">Home</Link></li>
-                <li><Link href="/exercises">Exercises</Link></li>
-                <li><Link href="/meal-plans">Meal Plans</Link></li>
-                <li><Link href="/healthy-foods">Healthy Foods</Link></li>
-                <li><Link href="/profile">Profile</Link></li>
-              </ul>
-            </nav>
-            <UserMenu />
-          </header>
-          <main>{children}</main>
-        </ClientSessionProvider>
+        <LanguageProvider>
+          <LanguageDirectionHandler>
+            <ClientSessionProvider>
+              <header>
+                <Link href="/" className="logo">VITALITY HUB</Link>
+                <nav>
+                  <NavLinks />
+                </nav>
+                <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
+                  <LanguageSwitcher />
+                  <UserMenu />
+                </div>
+              </header>
+              <main>{children}</main>
+            </ClientSessionProvider>
+          </LanguageDirectionHandler>
+        </LanguageProvider>
       </body>
     </html>
   );
