@@ -1,0 +1,1211 @@
+{
+  "tips": [
+    {
+      "id": "cmjsxakc40000no24xz0j1h5r",
+      "contentEn": "Stay hydrated! Aim for at least 8 glasses of water a day.",
+      "contentAr": "حافظ على رطوبة جسمك! احرص على شرب 8 أكواب من الماء يومياً على الأقل.",
+      "createdAt": "2025-12-30T18:30:47.669Z"
+    },
+    {
+      "id": "cmjsxakju0001no2432pzdhq6",
+      "contentEn": "Consistency is key. Even a 15-minute workout counts.",
+      "contentAr": "الاستمرارية هي المفتاح. حتى التمرين لمدة 15 دقيقة له أهمية.",
+      "createdAt": "2025-12-30T18:30:47.947Z"
+    },
+    {
+      "id": "cmjsxakpa0002no24k7pkyrk8",
+      "contentEn": "Deep breathing can reduce stress levels instantly.",
+      "contentAr": "التنفس العميق يمكن أن يقلل من مستويات التوتر فوراً.",
+      "createdAt": "2025-12-30T18:30:48.143Z"
+    },
+    {
+      "id": "cmjsxakta0003no24diwemkdw",
+      "contentEn": "Eat more green leafy vegetables for better energy.",
+      "contentAr": "تناول المزيد من الخضروات الورقية الخضراء للحصول على طاقة أفضل.",
+      "createdAt": "2025-12-30T18:30:48.287Z"
+    },
+    {
+      "id": "cmjsxal1q0004no24q16odayo",
+      "contentEn": "Prioritize sleep—it's when your body recovers best.",
+      "contentAr": "أعطِ الأولوية للنوم - فجسمك يتعافى بشكل أفضل أثناء النوم.",
+      "createdAt": "2025-12-30T18:30:48.590Z"
+    },
+    {
+      "id": "cmjztymqc0000nouk8af1tv5i",
+      "contentEn": "Stay hydrated throughout the day to support all body functions",
+      "contentAr": "احرص على شرب الماء بانتظام طوال اليوم، فالماء ضروري لتنظيم درجة حرارة الجسم، تحسين الهضم، دعم التركيز، والحفاظ على مستوى طاقة مستقر.",
+      "createdAt": "2026-01-04T14:31:55.222Z"
+    },
+    {
+      "id": "cmjztz6nt0001nouk35nuvt9w",
+      "contentEn": "Engage in physical activity for at least 30 minutes every day.\n",
+      "contentAr": "ممارسة النشاط البدني يوميًا، حتى لو كان المشي السريع، تساعد على تحسين صحة القلب، حرق السعرات الحرارية، وتقليل التوتر.",
+      "createdAt": "2026-01-04T14:32:21.113Z"
+    },
+    {
+      "id": "cmjztzpa40002noukydaejucd",
+      "contentEn": "Eat a balanced diet that includes proteins, healthy fats, and carbohydrates.\n",
+      "contentAr": "تناول وجبات متوازنة يمد الجسم بالعناصر الغذائية الأساسية اللازمة لبناء العضلات، إنتاج الطاقة، والحفاظ على وظائف الجسم الحيوية.",
+      "createdAt": "2026-01-04T14:32:45.155Z"
+    },
+    {
+      "id": "cmjzu04il0003nouki6wuk3l4",
+      "contentEn": "Include more fruits and vegetables in your daily meals.\n",
+      "contentAr": "الخضار والفواكه غنية بالفيتامينات، المعادن، والألياف التي تعزز المناعة وتحسن صحة الجهاز الهضمي.",
+      "createdAt": "2026-01-04T14:33:04.989Z"
+    },
+    {
+      "id": "cmjzu0xmh0004nouk1drxbiz2",
+      "contentEn": "Get 7–9 hours of quality sleep every night.\n",
+      "contentAr": "النوم الجيد يساعد الجسم على التعافي، يدعم صحة الدماغ، وينظم الهرمونات المرتبطة بالجوع والطاقة.",
+      "createdAt": "2026-01-04T14:33:42.713Z"
+    },
+    {
+      "id": "cmjzu1c7l0005noukc070louj",
+      "contentEn": "Warm up before exercise and cool down afterward.\n",
+      "contentAr": "الإحماء يهيئ العضلات والمفاصل للحركة، بينما يساعد التبريد بعد التمرين على تقليل الشد العضلي وتسريع التعافي.",
+      "createdAt": "2026-01-04T14:34:01.617Z"
+    },
+    {
+      "id": "cmjzu1u450006noukdkjmhfoh",
+      "contentEn": "Strength training is essential for muscle and bone health.\n",
+      "contentAr": "تمارين المقاومة تقوي العضلات، تحسن كثافة العظام، وتزيد من معدل الأيض على المدى الطويل.",
+      "createdAt": "2026-01-04T14:34:24.821Z"
+    },
+    {
+      "id": "cmjzu2byw0007noukbknerl5n",
+      "contentEn": "Do not skip meals, especially breakfast.\n",
+      "contentAr": "تخطي الوجبات قد يؤدي إلى انخفاض الطاقة وزيادة الشهية لاحقًا، بينما الإفطار الصحي ينشط الجسم والعقل.",
+      "createdAt": "2026-01-04T14:34:47.960Z"
+    },
+    {
+      "id": "cmjzu2qfe0008nouk3n1ncuan",
+      "contentEn": "Limit sugar, salt, and processed foods intake.\n",
+      "contentAr": "الإفراط في هذه العناصر قد يسبب زيادة الوزن، ارتفاع ضغط الدم، ومشاكل صحية على المدى البعيد.",
+      "createdAt": "2026-01-04T14:35:06.698Z"
+    },
+    {
+      "id": "cmjzu38gr0009noukc54a1i8h",
+      "contentEn": "Listen to your body and avoid overtraining.\n",
+      "contentAr": "إعطاء الجسم فترات راحة كافية يمنع الإرهاق والإصابات ويحسن الأداء الرياضي.",
+      "createdAt": "2026-01-04T14:35:30.075Z"
+    },
+    {
+      "id": "cmjzu3n6j000anoukbja2icb3",
+      "contentEn": "Maintain good posture during daily activities.\n",
+      "contentAr": "الوضعية الصحيحة تقلل آلام الظهر والرقبة وتحسن كفاءة التنفس والحركة.",
+      "createdAt": "2026-01-04T14:35:49.148Z"
+    },
+    {
+      "id": "cmjzu43ma000bnouk3mvzrxir",
+      "contentEn": "Practice flexibility and stretching exercises regularly.\n",
+      "contentAr": "تمارين التمدد تحسن مرونة العضلات، تقلل التصلب، وتزيد من مدى الحركة.",
+      "createdAt": "2026-01-04T14:36:10.450Z"
+    },
+    {
+      "id": "cmjzu5jwt000cnoukdm0nmzbh",
+      "contentEn": "Manage stress through physical activity or relaxation techniques.\n",
+      "contentAr": "التمارين، التأمل، والتنفس العميق تساعد على تقليل التوتر وتحسين الصحة النفسية.",
+      "createdAt": "2026-01-04T14:37:18.221Z"
+    },
+    {
+      "id": "cmjzu6r6i000dnouk2gc9arb0",
+      "contentEn": "Set realistic fitness goals and track your progress.\n",
+      "contentAr": "الأهداف الواقعية تزيد الالتزام، وقياس التقدم يعزز الدافع والاستمرارية.",
+      "createdAt": "2026-01-04T14:38:14.299Z"
+    },
+    {
+      "id": "cmjzu78t2000enouk1mjxpbt6",
+      "contentEn": "Eat mindfully and control portion sizes.\n",
+      "contentAr": "الأكل بوعي يساعد على تحسين الهضم وتجنب الإفراط في تناول الطعام.",
+      "createdAt": "2026-01-04T14:38:37.143Z"
+    },
+    {
+      "id": "cmjzu8gxv000fnoukiiy0jcgq",
+      "contentEn": "Include healthy snacks between meals if needed.\n",
+      "contentAr": "الوجبات الخفيفة الصحية تحافظ على مستوى السكر في الدم وتمنع الجوع الشديد.",
+      "createdAt": "2026-01-04T14:39:34.339Z"
+    },
+    {
+      "id": "cmjzua1eu000gnouk6xyhzs1e",
+      "contentEn": "Avoid sitting for long periods without movement.\n",
+      "contentAr": "الحركة المنتظمة خلال اليوم تحسن الدورة الدموية وتقلل مخاطر الخمول.",
+      "createdAt": "2026-01-04T14:40:47.526Z"
+    },
+    {
+      "id": "cmjzualoo000hnouk64d20lp5",
+      "contentEn": "Stay consistent rather than perfect.\n",
+      "contentAr": "الاستمرارية أهم من المثالية، فالتقدم البسيط المنتظم يؤدي إلى نتائج دائمة.",
+      "createdAt": "2026-01-04T14:41:13.800Z"
+    },
+    {
+      "id": "cmjzub5cv000inouks7bmp9bp",
+      "contentEn": "Support your fitness routine with proper nutrition.\n",
+      "contentAr": "التغذية السليمة تعزز نتائج التمرين وتسرّع التعافي العضلي.",
+      "createdAt": "2026-01-04T14:41:39.296Z"
+    },
+    {
+      "id": "cmjzubqlx000jnoukzbavvy43",
+      "contentEn": "Adopt a healthy lifestyle as a long-term habit, not a short-term plan.\n",
+      "contentAr": "الصحة واللياقة أسلوب حياة مستدام، وليس برنامجًا مؤقتًا، والالتزام الطويل هو مفتاح النجاح.",
+      "createdAt": "2026-01-04T14:42:06.837Z"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "cmk2syscr0000nowolck3gwqv",
+      "nameEn": "Bridge",
+      "nameAr": "تمرين الجسر ",
+      "descriptionEn": "Activates the core and posterior chain (lower back, glutes, hamstrings). Ideal as a warm-up exercise.\n",
+      "descriptionAr": "ينشّط عضلات الجذع والسلسلة الخلفية للجسم، ويُعد تمرينًا ممتازًا للإحماء.\n",
+      "image": "/uploads/1767716795974-bridge.webp",
+      "categoryEn": "Cardio",
+      "categoryAr": "الاحماء",
+      "createdAt": "2026-01-06T16:27:21.449Z"
+    },
+    {
+      "id": "cmk2tco380001nowowi2vtu30",
+      "nameEn": "Chair Squat",
+      "nameAr": "القرفصاء باستخدام الكرسي",
+      "descriptionEn": "Improves strength and function of muscles, tendons, and bones, making daily movements easier.\n",
+      "descriptionAr": "يعزز قوة العضلات والأوتار والعظام، ويساعد على أداء الحركات اليومية بسهولة أكبر.\n",
+      "image": "/uploads/1767717457788-chair-squart.webp",
+      "categoryEn": "Strength",
+      "categoryAr": "القوة",
+      "createdAt": "2026-01-06T16:38:09.140Z"
+    },
+    {
+      "id": "cmk2tg69z0002nowo6g42tpuz",
+      "nameEn": "Knee Pushup",
+      "nameAr": "الضغط على الركبتين",
+      "descriptionEn": "A beginner-friendly pushup that builds upper-body strength before standard pushups.\n",
+      "descriptionAr": "نسخة مبسطة من تمرين الضغط تساعد على تقوية الجزء العلوي من الجسم للمبتدئين.\n",
+      "image": "/uploads/1767717625868-Kneepushup.webp",
+      "categoryEn": "Flexibility",
+      "categoryAr": "لياقة ",
+      "createdAt": "2026-01-06T16:40:52.680Z"
+    },
+    {
+      "id": "cmk2ti1da0003nowovi6b7dc2",
+      "nameEn": "Stationary Lunge",
+      "nameAr": "الاندفاع الثابت",
+      "descriptionEn": "Targets quads, hamstrings, and glutes to strengthen the lower body.\n",
+      "descriptionAr": "يستهدف عضلات الفخذين والأرداف ويقوي الجزء السفلي من الجسم.\n",
+      "image": "/uploads/1767717718104-Stationary.webp",
+      "categoryEn": "Cardio",
+      "categoryAr": "الاحماء",
+      "createdAt": "2026-01-06T16:42:19.630Z"
+    },
+    {
+      "id": "cmk2tk7670004nowos9buwgt9",
+      "nameEn": "Plank to Downward ",
+      "nameAr": "بلانك  المتجه للأسفل",
+      "descriptionEn": "Challenges upper-body strength, especially the shoulders, while improving mobility.\n",
+      "descriptionAr": "يختبر قوة الجزء العلوي وخاصة الكتفين، ويحسّن المرونة.\n",
+      "image": "/uploads/1767717797092-Downward.webp",
+      "categoryEn": "Flexibility",
+      "categoryAr": "المرونة",
+      "createdAt": "2026-01-06T16:44:00.463Z"
+    },
+    {
+      "id": "cmk2tme4f0005nowozlo002vi",
+      "nameEn": "Straight-Leg  Kick",
+      "nameAr": "ركلة بالساق المستقيمة",
+      "descriptionEn": "A great beginner glute exercise that isolates and activates all glute muscles.\n",
+      "descriptionAr": "تمرين ممتاز للمبتدئين يعزل عضلات الأرداف وينشّطها بفعالية.\n",
+      "image": "/uploads/1767717922287-Straight-leg.webp",
+      "categoryEn": "Strength",
+      "categoryAr": "القوة",
+      "createdAt": "2026-01-06T16:45:42.783Z"
+    },
+    {
+      "id": "cmk2tqz680006nowozz2xj2ik",
+      "nameEn": "Bird Dog",
+      "nameAr": "تمرين الطائر",
+      "descriptionEn": "A full-body balance exercise that improves stability and core control.\n",
+      "descriptionAr": "تمرين شامل للجسم يعزز التوازن والثبات والتحكم في الجذع.\n",
+      "image": "/uploads/1767718124823-Bird-Dog.webp",
+      "categoryEn": "Cardio",
+      "categoryAr": "الاحماء",
+      "createdAt": "2026-01-06T16:49:16.688Z"
+    },
+    {
+      "id": "cmk2tsm4c0007nowo0exlqayk",
+      "nameEn": "Forearm Plank",
+      "nameAr": "البلانك على الساعدين",
+      "descriptionEn": "A full-body exercise that improves strength, stability, and injury prevention.\n",
+      "descriptionAr": "يعزز القوة العامة والثبات ويساعد في تقليل خطر الإصابات.\n",
+      "image": "/uploads/1767718211157-Forearm-plank.webp",
+      "categoryEn": "Strength",
+      "categoryAr": "القوة",
+      "createdAt": "2026-01-06T16:50:33.085Z"
+    },
+    {
+      "id": "cmk2tvv8n0008nowou93y36q9",
+      "nameEn": "Side-Lying",
+      "nameAr": "إبعاد الورك",
+      "descriptionEn": "Strengthens hip muscles often weakened by prolonged sitting.\n",
+      "descriptionAr": "يقوي عضلات الورك التي تضعف بسبب الجلوس الطويل.\n",
+      "image": "/uploads/1767718359446-Side-lying.webp",
+      "categoryEn": "Flexibility",
+      "categoryAr": "المرونة",
+      "createdAt": "2026-01-06T16:53:04.871Z"
+    },
+    {
+      "id": "cmk2tzav20009nowos7fwhaw3",
+      "nameEn": "Bicycle Crunch",
+      "nameAr": "تمرين الدراجة",
+      "descriptionEn": "Directly targets the rectus abdominis (“six-pack” muscles).\n",
+      "descriptionAr": "يستهدف عضلات البطن الأمامية المسؤولة عن شكل عضلات المعدة .\n",
+      "image": "/uploads/1767718499848-Bicycle-crunch.webp",
+      "categoryEn": "Cardio",
+      "categoryAr": "كارديو ",
+      "createdAt": "2026-01-06T16:55:45.087Z"
+    },
+    {
+      "id": "cmk2u2b7z000anowo1aawgkpz",
+      "nameEn": "Bridged March",
+      "nameAr": "رفع الساق بالتناوب",
+      "descriptionEn": "Single-leg movement increases difficulty and core engagement.\n",
+      "descriptionAr": "الأداء على ساق واحدة يزيد من صعوبة التمرين ويعزز عمل العضلات.\n",
+      "image": "/uploads/1767718647088-Bridged-march.webp",
+      "categoryEn": "Flexibility",
+      "categoryAr": "المرونة",
+      "createdAt": "2026-01-06T16:58:05.519Z"
+    },
+    {
+      "id": "cmk2u4bdn000bnowob3olb0te",
+      "nameEn": "Squat",
+      "nameAr": "القرفصاء ",
+      "descriptionEn": "Helps master proper squat form and increases lower-body strength.\n",
+      "descriptionAr": "يساعد على إتقان الوضعية الصحيحة وتقوية الجزء السفلي من الجسم.\n",
+      "image": "/uploads/1767718742374-Squat.webp",
+      "categoryEn": "Flexibility",
+      "categoryAr": "المرونة ",
+      "createdAt": "2026-01-06T16:59:39.036Z"
+    },
+    {
+      "id": "cmk2u6fcd000cnowoq2awnv6n",
+      "nameEn": "Pushup",
+      "nameAr": "تمرين الضغط",
+      "descriptionEn": "A standard pushup that challenges chest, shoulders, and arms.\n",
+      "descriptionAr": "تمرين كلاسيكي يقوي الصدر والكتفين والذراعين.\n",
+      "image": "/uploads/1767718831627-Pushup.webp",
+      "categoryEn": "Strength",
+      "categoryAr": "القوة",
+      "createdAt": "2026-01-06T17:01:17.485Z"
+    },
+    {
+      "id": "cmk2u9iqj000dnowow5welc3u",
+      "nameEn": "Forward & Backward",
+      "nameAr": "الاندفاع للأمام والخلف",
+      "descriptionEn": "Improves strength, balance, and mobility through dynamic movement.\n",
+      "descriptionAr": "يعزز القوة والتوازن والمرونة عبر الحركة المستمرة.\n",
+      "image": "/uploads/1767718987847-Forward.webp",
+      "categoryEn": "Flexibility",
+      "categoryAr": "المرونة",
+      "createdAt": "2026-01-06T17:03:41.851Z"
+    },
+    {
+      "id": "cmk2ubxlk000enowof53ef1in",
+      "nameEn": "Pike Pushup",
+      "nameAr": "ضغط الكتفين ",
+      "descriptionEn": "Strong shoulder-focused pushup variation.\n",
+      "descriptionAr": "نسخة ضغط قوية تستهدف عضلات الكتفين بشكل أساسي.\n",
+      "image": "/uploads/1767719095031-Pike.webp",
+      "categoryEn": "Strength",
+      "categoryAr": "القوة",
+      "createdAt": "2026-01-06T17:05:34.424Z"
+    },
+    {
+      "id": "cmk2udtzk000fnowog7efjgw0",
+      "nameEn": "Kneeling Squat",
+      "nameAr": "قرفصاء الركوع ",
+      "descriptionEn": "Increases time under tension for legs and glutes.\n",
+      "descriptionAr": "يحافظ على توتر مستمر في عضلات الأرجل والأرداف.\n",
+      "image": "/uploads/1767719200148-Kneeling-squat.webp",
+      "categoryEn": "Strength",
+      "categoryAr": "القوة",
+      "createdAt": "2026-01-06T17:07:03.056Z"
+    },
+    {
+      "id": "cmk2ufjqv000gnowoipjtom0m",
+      "nameEn": "Plank Leg ",
+      "nameAr": "بلانك الساقين",
+      "descriptionEn": "Boosts core activation and balance.\n",
+      "descriptionAr": "يعزز عمل عضلات البطن ويزيد من التوازن.\n",
+      "image": "/uploads/1767719285345-Plank-with-alternating.webp",
+      "categoryEn": "Cardio",
+      "categoryAr": "كارديو",
+      "createdAt": "2026-01-06T17:08:23.095Z"
+    },
+    {
+      "id": "cmk2ugxai000hnowof0xg3ytc",
+      "nameEn": "Side Plank",
+      "nameAr": "البلانك الجانبي",
+      "descriptionEn": "Engages core and upper body simultaneously.\n",
+      "descriptionAr": "يشغّل عضلات الجذع والجزء العلوي معًا.\n",
+      "image": "/uploads/1767719350553-Kneeling-side.webp",
+      "categoryEn": "Strength",
+      "categoryAr": "القوة ",
+      "createdAt": "2026-01-06T17:09:27.306Z"
+    },
+    {
+      "id": "cmk2ui7cu000inowo5tfryurl",
+      "nameEn": "Single-Leg Bridge",
+      "nameAr": "الجسر بساق واحدة",
+      "descriptionEn": "Increases glute and core strength through unilateral work.\n",
+      "descriptionAr": "يقوي الأرداف والكور عبر العمل على جهة واحدة.\n",
+      "image": "/uploads/1767719407459-Single-leg-bridge.webp",
+      "categoryEn": "Flexibility",
+      "categoryAr": "المرونة",
+      "createdAt": "2026-01-06T17:10:27.007Z"
+    },
+    {
+      "id": "cmk2ulh5y000jnowo404rm9o0",
+      "nameEn": "One-Legged Pushup",
+      "nameAr": "الضغط مع رفع ساق",
+      "descriptionEn": "Raises difficulty by shifting bodyweight load.\n",
+      "descriptionAr": "يزيد التحدي عبر تحويل الوزن إلى أطراف أقل.\n",
+      "image": "/uploads/1767719562268-One-legged.webp",
+      "categoryEn": "Strength",
+      "categoryAr": "القوة",
+      "createdAt": "2026-01-06T17:12:59.687Z"
+    },
+    {
+      "id": "cmk2uo06j000knowo1jorkdzl",
+      "nameEn": "Pike Pushup",
+      "nameAr": "ضغط  القدمين",
+      "descriptionEn": "The most challenging pike variation for shoulders.\n",
+      "descriptionAr": "أصعب نسخ البايك وأكثرها استهدافًا للكتفين.\n",
+      "image": "/uploads/1767719676141-Elevated-pike-pushups.webp",
+      "categoryEn": "Strength",
+      "categoryAr": "القوة",
+      "createdAt": "2026-01-06T17:14:57.643Z"
+    },
+    {
+      "id": "cmk2upeng000lnowoyweh4615",
+      "nameEn": "Squat  Jump",
+      "nameAr": "قرفصاء القفز ",
+      "descriptionEn": "Develops explosive power and leg strength.\n",
+      "descriptionAr": "يطوّر القوة الانفجارية وعضلات الأرجل.\n",
+      "image": "/uploads/1767719745800-Kneeling-squat-with-jump.webp",
+      "categoryEn": "Cardio",
+      "categoryAr": "الاحماء",
+      "createdAt": "2026-01-06T17:16:03.052Z"
+    },
+    {
+      "id": "cmk2uqugo000mnowom9qg79jr",
+      "nameEn": "Hold to Jackknife",
+      "nameAr": "الثبات المجوف ",
+      "descriptionEn": "Requires constant abdominal contraction.\n",
+      "descriptionAr": "يتطلب انقباضًا مستمرًا لعضلات البطن.\n",
+      "image": "/uploads/1767719821644-Hollow-hold-jackknife.webp",
+      "categoryEn": "Strength",
+      "categoryAr": "القوة",
+      "createdAt": "2026-01-06T17:17:10.200Z"
+    },
+    {
+      "id": "cmk2us49z000nnowok8nlodw0",
+      "nameEn": "Clamshell",
+      "nameAr": "تمرين الصدفة ",
+      "descriptionEn": "Targets deep glute and hip abductor muscles.\n",
+      "descriptionAr": "يستهدف العضلات العميقة للأرداف وعضلات الورك.\n",
+      "image": "/uploads/1767719868215-Clamshell.webp",
+      "categoryEn": "Flexibility",
+      "categoryAr": "المرونة",
+      "createdAt": "2026-01-06T17:18:09.575Z"
+    },
+    {
+      "id": "cmk2utiyu000onowogxurarvd",
+      "nameEn": "Superman Hold",
+      "nameAr": "تمرين سوبر مان",
+      "descriptionEn": "Improves posture, lower-back strength, and walking mechanics.\n",
+      "descriptionAr": "يعزز قوة أسفل الظهر ويحسن القوام وآلية المشي.\n",
+      "image": "/uploads/1767719935376-Prone-superman.webp",
+      "categoryEn": "Yoga",
+      "categoryAr": "يوغا",
+      "createdAt": "2026-01-06T17:19:15.270Z"
+    }
+  ],
+  "meals": [
+    {
+      "id": "cmjsxald10007no2486fx0ffa",
+      "type": "Breakfast",
+      "nameEn": "Oatmeal with Fruits",
+      "nameAr": " الشوفان مع الفواكه",
+      "descriptionEn": "High-fiber oats served with fresh berries and a touch of honey.\nNutritional Value: High fiber – Complex carbohydrates – Moderate protein\nCalories: ≈ 320 kcal",
+      "descriptionAr": "الوصف: شوفان غني بالألياف مع توت أو فراولة وقليل من العسل.\nالقيمة الغذائية: ألياف عالية – كربوهيدرات معقدة – بروتين متوسط\nالسعرات: ≈ 320 سعرة",
+      "image": null,
+      "createdAt": "2025-12-30T18:30:48.998Z"
+    },
+    {
+      "id": "cmjsxaljb0008no24ebxrtsbg",
+      "type": "Lunch",
+      "nameEn": "Grilled Chicken Salad",
+      "nameAr": "سلطة الدجاج المشوي",
+      "descriptionEn": "Herb-marinated grilled chicken breast served over a mix of fresh leafy greens such as lettuce and arugula, with tomatoes and cucumbers Calories: ≈ 380 kcal",
+      "descriptionAr": "صدر دجاج مشوي متبل بالأعشاب، يقدم فوق مزيج من الخضار الورقية الطازجة مثل الخس والجرجير، مع طماطم وخيار، السعرات  ≈ 380 سعرة.",
+      "image": null,
+      "createdAt": "2025-12-30T18:30:49.224Z"
+    },
+    {
+      "id": "cmjsxaloh0009no24edr1vfym",
+      "type": "Dinner",
+      "nameEn": "Light Grilled Fish with Salad",
+      "nameAr": "سمك خفيف مع سلطة",
+      "descriptionEn": "Lightly grilled fish served with green salad.\nNutritional Value: Protein – Healthy fats\nCalories: ≈ 360 kcal",
+      "descriptionAr": "سمك مشوي خفيف يقدم مع سلطة خضراء.\nالقيمة الغذائية: بروتين – دهون صحية\nالسعرات: ≈ 360 سعرة",
+      "image": null,
+      "createdAt": "2025-12-30T18:30:49.409Z"
+    },
+    {
+      "id": "cmk17w6ip0000nor44awb40zt",
+      "type": "Breakfast",
+      "nameEn": "Whole Wheat Bread with Boiled Eggs",
+      "nameAr": "خبز أسمر مع بيض مسلوق",
+      "descriptionEn": "Boiled eggs served with whole wheat bread and fresh vegetables.\nNutritional Value: Good protein – Moderate fats\nCalories: ≈ 400 kcal",
+      "descriptionAr": " بيض مسلوق مع خبز قمح كامل وخضار.\nالقيمة الغذائية: بروتين جيد – دهون معتدلة\nالسعرات: ≈ 400 سعرة",
+      "image": null,
+      "createdAt": "2026-01-05T13:49:41.755Z"
+    },
+    {
+      "id": "cmk185pib0001nor4qifa01ak",
+      "type": "Breakfast",
+      "nameEn": "Greek Yogurt with Honey and Nuts",
+      "nameAr": "زبادي يوناني مع عسل ومكسرات",
+      "descriptionEn": "Protein-rich Greek yogurt topped with natural honey and nuts.\nNutritional Value: High protein – Healthy fats\nCalories: ≈ 350 kcal",
+      "descriptionAr": "زبادي غني بالبروتين مع مكسرات طبيعية.\nالقيمة الغذائية: بروتين عالي – دهون صحية\nالسعرات: ≈ 350 سعرة",
+      "image": null,
+      "createdAt": "2026-01-05T13:57:06.275Z"
+    },
+    {
+      "id": "cmk187dxh0002nor4oadw6nja",
+      "type": "Breakfast",
+      "nameEn": "Oat Pancakes with Banana",
+      "nameAr": "بان كيك الشوفان بالموز",
+      "descriptionEn": "Healthy oat pancakes made with banana and no added sugar.\nNutritional Value: High fiber – Sustained energy\nCalories: ≈ 360 kcal",
+      "descriptionAr": "بان كيك صحي بدون سكر مضاف.\nالقيمة الغذائية: ألياف عالية – طاقة مستدامة\nالسعرات: ≈ 360 سعرة",
+      "image": null,
+      "createdAt": "2026-01-05T13:58:24.581Z"
+    },
+    {
+      "id": "cmk1893s70003nor46hq2rexf",
+      "type": "Breakfast",
+      "nameEn": "Fruit Smoothie with Milk",
+      "nameAr": "سموذي فواكه مع حليب",
+      "descriptionEn": "Banana and strawberries blended with low-fat milk.\nNutritional Value: Vitamins – Natural carbohydrates\nCalories: ≈ 300 kcal",
+      "descriptionAr": "موز وفراولة مع حليب قليل الدسم.\nالقيمة الغذائية: فيتامينات – كربوهيدرات\nالسعرات: ≈ 300 سعرة",
+      "image": null,
+      "createdAt": "2026-01-05T13:59:44.744Z"
+    },
+    {
+      "id": "cmk18b4cu0004nor4pcuj9nxy",
+      "type": "Breakfast",
+      "nameEn": "Fava Beans with Olive Oil",
+      "nameAr": "فول مع زيت زيتون",
+      "descriptionEn": "Cooked fava beans drizzled with olive oil and lemon.\nNutritional Value: Plant-based protein – High fiber\nCalories: ≈ 420 kcal",
+      "descriptionAr": "فول مطبوخ بزيت زيتون وليمون.\nالقيمة الغذائية: بروتين نباتي – ألياف\nالسعرات: ≈ 420 سعرة",
+      "image": null,
+      "createdAt": "2026-01-05T14:01:18.798Z"
+    },
+    {
+      "id": "cmk18e8pk0005nor4mbbhh3x0",
+      "type": "Breakfast",
+      "nameEn": "Whole Wheat Toast with Peanut Butter",
+      "nameAr": "توست أسمر مع زبدة فول سوداني",
+      "descriptionEn": "Toasted whole wheat bread spread with natural peanut butter.\nNutritional Value: Healthy fats – Long-lasting energy\nCalories: ≈ 380 kcal",
+      "descriptionAr": "خبز محمص مع زبدة فول طبيعية.\nالقيمة الغذائية: دهون صحية – طاقة عالية\nالسعرات: ≈ 380 سعرة",
+      "image": null,
+      "createdAt": "2026-01-05T14:03:44.408Z"
+    },
+    {
+      "id": "cmk18gbip0006nor48160o6bs",
+      "type": "Breakfast",
+      "nameEn": "Cottage Cheese with Vegetables",
+      "nameAr": "جبن أريش مع خضار",
+      "descriptionEn": "Low-fat cottage cheese served with cucumber and tomatoes.\nNutritional Value: High protein – Low fat\nCalories: ≈ 250 kcal",
+      "descriptionAr": "جبن قليل الدسم مع خيار وطماطم.\nالقيمة الغذائية: بروتين عالي – دهون قليلة\nالسعرات: ≈ 250 سعرة",
+      "image": null,
+      "createdAt": "2026-01-05T14:05:21.361Z"
+    },
+    {
+      "id": "cmk18i4ou0007nor4vo46agrc",
+      "type": "Breakfast",
+      "nameEn": "Fried Eggs with Olive Oil",
+      "nameAr": "بيض مقلي بزيت زيتون",
+      "descriptionEn": "Eggs cooked in olive oil, served with whole wheat bread.\nNutritional Value: Protein – Moderate fats\nCalories: ≈ 430 kcal",
+      "descriptionAr": "بيض مع خبز أسمر.\nالقيمة الغذائية: بروتين – دهون معتدلة\nالسعرات: ≈ 430 سعرة",
+      "image": null,
+      "createdAt": "2026-01-05T14:06:45.822Z"
+    },
+    {
+      "id": "cmk18t4b20008nor4z44l50t3",
+      "type": "Lunch",
+      "nameEn": "Grilled Chicken Breast with Brown Rice",
+      "nameAr": "صدر دجاج مشوي مع أرز بني",
+      "descriptionEn": "Herb-seasoned grilled chicken breast served with brown rice and steamed vegetables.\nNutritional Value: High protein – Low fat – Complex carbs\nCalories: ≈ 520 kcal",
+      "descriptionAr": " صدر دجاج مشوي متبل بالأعشاب، يقدم مع أرز بني وخضار مطهوة على البخار.\nالقيمة الغذائية: بروتين عالي – دهون قليلة – كربوهيدرات معقدة\nالسعرات: ≈ 520 سعرة",
+      "image": null,
+      "createdAt": "2026-01-05T14:15:18.543Z"
+    },
+    {
+      "id": "cmk18ux8o0009nor4i5xtp29a",
+      "type": "Lunch",
+      "nameEn": "Grilled Fish with Boiled Potatoes",
+      "nameAr": "سمك مشوي مع بطاطا مسلوقة",
+      "descriptionEn": "Omega-3 rich grilled fish served with boiled potatoes and a side salad.\nNutritional Value: Healthy fats – High protein\nCalories: ≈ 480 kcal",
+      "descriptionAr": "سمك مشوي غني بالأوميغا 3 مع بطاطا مسلوقة وسلطة جانبية.\nالقيمة الغذائية: دهون صحية – بروتين عالي\nالسعرات: ≈ 480 سعرة",
+      "image": null,
+      "createdAt": "2026-01-05T14:16:42.697Z"
+    },
+    {
+      "id": "cmk18wa0h000anor4ix48cqoa",
+      "type": "Lunch",
+      "nameEn": "Grilled Lean Beef with Quinoa",
+      "nameAr": "لحم بقري مشوي مع كينوا",
+      "descriptionEn": "Lean grilled beef served with quinoa and roasted vegetables.\nNutritional Value: High protein – Iron – Fiber\nCalories: ≈ 550 kcal",
+      "descriptionAr": "لحم بقري قليل الدهن مشوي مع كينوا وخضار مشوية.\nالقيمة الغذائية: بروتين عالي – حديد – ألياف\nالسعرات: ≈ 550 سعرة",
+      "image": null,
+      "createdAt": "2026-01-05T14:17:45.905Z"
+    },
+    {
+      "id": "cmk18xo3g000bnor4byc7jqr9",
+      "type": "Lunch",
+      "nameEn": "Whole Wheat Pasta with Chicken",
+      "nameAr": "مكرونة قمح كامل مع دجاج",
+      "descriptionEn": "Whole wheat pasta mixed with chicken pieces and light sauce.\nNutritional Value: Healthy carbs – Protein\nCalories: ≈ 600 kcal",
+      "descriptionAr": "مكرونة من القمح الكامل مع قطع دجاج وصوص خفيف.\nالقيمة الغذائية: كربوهيدرات صحية – بروتين\nالسعرات: ≈ 600 سعرة",
+      "image": null,
+      "createdAt": "2026-01-05T14:18:50.812Z"
+    },
+    {
+      "id": "cmk18zxzg000cnor4nsz5xnla",
+      "type": "Lunch",
+      "nameEn": "White Rice with Vegetables and Chicken",
+      "nameAr": "أرز أبيض مع خضار ودجاج",
+      "descriptionEn": "White rice cooked with chicken and mixed vegetables.\nNutritional Value: Energy carbs – Protein\nCalories: ≈ 530 kcal",
+      "descriptionAr": "أرز أبيض مطهو مع دجاج وخضار مشكلة.\nالقيمة الغذائية: طاقة – بروتين\nالسعرات: ≈ 530 سعرة",
+      "image": null,
+      "createdAt": "2026-01-05T14:20:36.941Z"
+    },
+    {
+      "id": "cmk191lby000dnor4qjzqgi71",
+      "type": "Lunch",
+      "nameEn": "Healthy Low-Fat Kabsa",
+      "nameAr": "كبسة صحية قليلة الدسم",
+      "descriptionEn": "Modified kabsa prepared with lean meat or chicken and reduced oil.\nNutritional Value: Carbohydrates – Protein\nCalories: ≈ 650 kcal",
+      "descriptionAr": "كبسة معدلة باستخدام لحم أو دجاج قليل الدهن مع تقليل الزيوت.\nالقيمة الغذائية: كربوهيدرات – بروتين\nالسعرات: ≈ 650 سعرة",
+      "image": null,
+      "createdAt": "2026-01-05T14:21:53.855Z"
+    },
+    {
+      "id": "cmk194jl8000enor43hr4gdnj",
+      "type": "Lunch",
+      "nameEn": "Homemade Chicken Burger",
+      "nameAr": "برغر دجاج منزلي",
+      "descriptionEn": " Homemade chicken burger served in whole wheat bun with vegetables.\nNutritional Value: Protein – Moderate fats\nCalories: ≈ 500 kcal",
+      "descriptionAr": "برغر دجاج محضر في المنزل مع خبز أسمر وخضار.\nالقيمة الغذائية: بروتين – دهون معتدلة\nالسعرات: ≈ 500 سعرة",
+      "image": null,
+      "createdAt": "2026-01-05T14:24:11.564Z"
+    },
+    {
+      "id": "cmk195z0w000fnor4bluboszb",
+      "type": "Lunch",
+      "nameEn": "Cooked Beans with Rice",
+      "nameAr": "فاصولياء مطبوخة مع أرز",
+      "descriptionEn": "Beans cooked and served with rice, rich in plant protein.\nNutritional Value: Fiber – Plant-based protein\nCalories: ≈ 470 kcal",
+      "descriptionAr": "فاصولياء غنية بالبروتين النباتي تقدم مع أرز.\nالقيمة الغذائية: ألياف – بروتين نباتي\nالسعرات: ≈ 470 سعرة",
+      "image": null,
+      "createdAt": "2026-01-05T14:25:18.224Z"
+    },
+    {
+      "id": "cmk197wp7000gnor45osgg4oh",
+      "type": "Dinner",
+      "nameEn": "Tuna Salad",
+      "nameAr": "سلطة تونة",
+      "descriptionEn": "Tuna mixed with fresh vegetables, olive oil, and lemon juice.\nNutritional Value: High protein – Healthy fats\nCalories: ≈ 350 kcal",
+      "descriptionAr": " تونة مع خضار طازجة وزيت زيتون وليمون.\nالقيمة الغذائية: بروتين عالي – دهون صحية\nالسعرات: ≈ 350 سعرة",
+      "image": null,
+      "createdAt": "2026-01-05T14:26:48.524Z"
+    },
+    {
+      "id": "cmk199evp000hnor4s70mxriz",
+      "type": "Dinner",
+      "nameEn": "Lentil Soup",
+      "nameAr": "شوربة عدس",
+      "descriptionEn": "Warm lentil soup rich in fiber and plant protein.\nNutritional Value: High fiber – Moderate protein\nCalories: ≈ 280 kcal",
+      "descriptionAr": "شوربة عدس دافئة غنية بالألياف والبروتين النباتي.\nالقيمة الغذائية: ألياف عالية – بروتين\nالسعرات: ≈ 280 سعرة",
+      "image": null,
+      "createdAt": "2026-01-05T14:27:58.742Z"
+    },
+    {
+      "id": "cmk19amyc000inor4og7t00rw",
+      "type": "Dinner",
+      "nameEn": "Boiled Eggs with Vegetables",
+      "nameAr": "بيض مسلوق مع خضار",
+      "descriptionEn": "Boiled eggs served with fresh vegetables.\nNutritional Value: Protein – Low fat\nCalories: ≈ 270 kcal",
+      "descriptionAr": " بيض مسلوق يقدم مع خضار طازجة.\nالقيمة الغذائية: بروتين – دهون قليلة\nالسعرات: ≈ 270 سعرة",
+      "image": null,
+      "createdAt": "2026-01-05T14:28:55.860Z"
+    },
+    {
+      "id": "cmk19c3h7000jnor4p530wjyx",
+      "type": "Dinner",
+      "nameEn": "Chicken Salad",
+      "nameAr": "سلطة دجاج",
+      "descriptionEn": "Grilled chicken pieces mixed with leafy greens.\nNutritional Value: Protein – Fiber\nCalories: ≈ 380 kcal",
+      "descriptionAr": "قطع دجاج مشوي مع خضار ورقية.\nالقيمة الغذائية: بروتين – ألياف\nالسعرات: ≈ 380 سعرة",
+      "image": null,
+      "createdAt": "2026-01-05T14:30:03.931Z"
+    },
+    {
+      "id": "cmk19d9n9000knor4lo1bfq4y",
+      "type": "Dinner",
+      "nameEn": "Hummus with Whole Wheat Bread",
+      "nameAr": "حمص مع خبز أسمر",
+      "descriptionEn": "Mashed chickpeas with olive oil served with whole wheat bread.\nNutritional Value: Plant protein – Healthy fats\nCalories: ≈ 420 kcal",
+      "descriptionAr": "حمص مهروس بزيت زيتون يقدم مع خبز قمح كامل.\nالقيمة الغذائية: بروتين نباتي – دهون صحية\nالسعرات: ≈ 420 سعرة",
+      "image": null,
+      "createdAt": "2026-01-05T14:30:58.581Z"
+    },
+    {
+      "id": "cmk19fmza000lnor4xgez3w2m",
+      "type": "Dinner",
+      "nameEn": "Cottage Cheese with Toast",
+      "nameAr": "جبن أريش مع توست",
+      "descriptionEn": "Low-fat cottage cheese served with toasted bread.\nNutritional Value: High protein\nCalories: ≈ 290 kcal",
+      "descriptionAr": "جبن أريش قليل الدسم مع خبز محمص.\nالقيمة الغذائية: بروتين عالي\nالسعرات: ≈ 290 سعرة",
+      "image": null,
+      "createdAt": "2026-01-05T14:32:49.174Z"
+    },
+    {
+      "id": "cmk19gyeu000mnor4ripdlhkg",
+      "type": "Dinner",
+      "nameEn": "Vegetable Soup",
+      "nameAr": "شوربة خضار",
+      "descriptionEn": "Light soup made from mixed vegetables.\nNutritional Value: Vitamins – Low calories\nCalories: ≈ 200 kcal",
+      "descriptionAr": "شوربة خفيفة من خضار متنوعة.\nالقيمة الغذائية: فيتامينات – سعرات قليلة\nالسعرات: ≈ 200 سعرة",
+      "image": null,
+      "createdAt": "2026-01-05T14:33:50.646Z"
+    },
+    {
+      "id": "cmk19js77000nnor4xcyefc5y",
+      "type": "Dinner",
+      "nameEn": "Fruit Salad",
+      "nameAr": "سلطة فواكه",
+      "descriptionEn": "A mix of fresh seasonal fruits.\nNutritional Value: Fiber – Natural sugars\nCalories: ≈ 250 kcal",
+      "descriptionAr": "مزيج من فواكه طازجة موسمية.\nالقيمة الغذائية: ألياف – سكريات طبيعية\nالسعرات: ≈ 250 سعرة",
+      "image": null,
+      "createdAt": "2026-01-05T14:36:02.563Z"
+    }
+  ],
+  "foods": [
+    {
+      "id": "cmjsxalws0000no58vr6plxkl",
+      "categoryEn": "Fruits",
+      "categoryAr": "فواكه",
+      "nameEn": "Blueberry",
+      "nameAr": "التوت الأزرق",
+      "benefitsEn": "Enhances memory and brain health due to powerful antioxidants.",
+      "benefitsAr": "يعزز الذاكرة وصحة الدماغ لاحتوائه على مضادات أكسدة قوية.\n",
+      "image": "/uploads/1767542453832-pexels-thepaintedsquare-583837.jpg",
+      "createdAt": "2025-12-30T18:30:49.708Z"
+    },
+    {
+      "id": "cmjsxam0j0001no58qlnsl0eg",
+      "categoryEn": "Fruits",
+      "categoryAr": "فواكه",
+      "nameEn": "Avocado",
+      "nameAr": "أفوكادو",
+      "benefitsEn": "Rich in healthy fats, supports heart and brain health.",
+      "benefitsAr": "غني بالدهون الصحية، يدعم صحة القلب والدماغ.\n",
+      "image": "/uploads/1767542327067-pexels-foodie-factor-162291-557659.jpg",
+      "createdAt": "2025-12-30T18:30:49.843Z"
+    },
+    {
+      "id": "cmjsxam3w0002no58nbgedstq",
+      "categoryEn": "Vegetables",
+      "categoryAr": "خضروات",
+      "nameEn": "Spinach",
+      "nameAr": "سبانخ",
+      "benefitsEn": "Rich in iron and vitamins, helps strengthen blood, support muscles, and improve immune function.",
+      "benefitsAr": "غنية بالحديد والفيتامينات، تساعد على تقوية الدم، دعم صحة العضلات، وتحسين وظائف الجهاز المناعي.\n",
+      "image": "/uploads/1767542568299-pexels-jhowell-2325843.jpg",
+      "createdAt": "2025-12-30T18:30:49.964Z"
+    },
+    {
+      "id": "cmjsxam880003no58ecyhr7jw",
+      "categoryEn": "Vegetables",
+      "categoryAr": "خضروات",
+      "nameEn": "Broccoli",
+      "nameAr": "بروكلي",
+      "benefitsEn": "Contains powerful antioxidants, supports heart health, and helps reduce inflammation.",
+      "benefitsAr": "يحتوي على مضادات أكسدة قوية، يدعم صحة القلب، ويساعد في تقليل الالتهابات.\n",
+      "image": "/uploads/1767542738336-pexels-pixabay-47347.jpg",
+      "createdAt": "2025-12-30T18:30:50.120Z"
+    },
+    {
+      "id": "cmjsxamcm0004no58tzi326s6",
+      "categoryEn": "Herbs",
+      "categoryAr": "أعشاب",
+      "nameEn": "Turmeric",
+      "nameAr": "كركم",
+      "benefitsEn": "Powerful anti-inflammatory and antioxidant properties.",
+      "benefitsAr": "خصائص قوية مضادة للالتهابات ومضادة للأكسدة.",
+      "image": "/uploads/1767542880810-pexels-martabranco-1340116.jpg",
+      "createdAt": "2025-12-30T18:30:50.279Z"
+    },
+    {
+      "id": "cmjsxamgk0005no58osztumvq",
+      "categoryEn": "Herbs",
+      "categoryAr": "أعشاب",
+      "nameEn": "Ginger",
+      "nameAr": "زنجبيل",
+      "benefitsEn": "Aids digestion and reduces muscle pain.",
+      "benefitsAr": "يساعد في الهضم ويقلل من آلام العضلات.",
+      "image": "/uploads/1767539987694-pexels-joris-neyt-512471-1337585.jpg",
+      "createdAt": "2025-12-30T18:30:50.420Z"
+    },
+    {
+      "id": "cmjzv7wli000knoukxz05h59v",
+      "categoryEn": "Fruits",
+      "categoryAr": "فواكه",
+      "nameEn": "Banana ",
+      "nameAr": "الموز",
+      "benefitsEn": "Rich in potassium, supports muscle and nerve function, and provides quick energy.",
+      "benefitsAr": "مصدر غني بالبوتاسيوم، يساعد في دعم صحة العضلات والأعصاب ويمنح طاقة سريعة للجسم.\n",
+      "image": "/uploads/1767539071435-pexels-vanessa-loring-5966630.jpg",
+      "createdAt": "2026-01-04T15:07:07.590Z"
+    },
+    {
+      "id": "cmjzy0xwt000lnoukz79jnewt",
+      "categoryEn": "Fruits",
+      "categoryAr": "فواكه",
+      "nameEn": "Apple",
+      "nameAr": "تفاح",
+      "benefitsEn": "Helps improve digestion due to its fiber content and supports heart health while regulating blood sugar levels.",
+      "benefitsAr": "يساعد على تحسين الهضم لاحتوائه على الألياف، ويدعم صحة القلب ويُسهم في تنظيم مستوى السكر في الدم.",
+      "image": "/uploads/1767543938157-pexels-pixabay-206959.jpg",
+      "createdAt": "2026-01-04T16:25:41.549Z"
+    },
+    {
+      "id": "cmjzy2vfv000mnoukfokquhf0",
+      "categoryEn": "Fruits",
+      "categoryAr": "فواكه",
+      "nameEn": "Orange",
+      "nameAr": "برتقال",
+      "benefitsEn": "High in vitamin C, boosts immunity, improves skin health, and aids iron absorption",
+      "benefitsAr": "غني بفيتامين C، يعزز المناعة، يحسن صحة الجلد، ويساعد على امتصاص الحديد.\n",
+      "image": "/uploads/1767544021858-pexels-jeshoots-3603.jpg",
+      "createdAt": "2026-01-04T16:27:11.659Z"
+    },
+    {
+      "id": "cmjzy4ren000nnouklj2fonob",
+      "categoryEn": "Fruits",
+      "categoryAr": "فواكه",
+      "nameEn": "Strawberry",
+      "nameAr": "فراولة",
+      "benefitsEn": "Contains antioxidants that protect cells and support heart health.",
+      "benefitsAr": "تحتوي على مضادات الأكسدة، تساعد في حماية الخلايا وتحسين صحة القلب.\n",
+      "image": "/uploads/1767544111486-pexels-suzyhazelwood-1258264.jpg",
+      "createdAt": "2026-01-04T16:28:39.744Z"
+    },
+    {
+      "id": "cmjzy6iv0000onoukdzhc1ino",
+      "categoryEn": "Fruits",
+      "categoryAr": "فواكه",
+      "nameEn": "Grapes",
+      "nameAr": "عنب",
+      "benefitsEn": "Supports heart health and circulation and is rich in antioxidants.",
+      "benefitsAr": "يدعم صحة القلب والدورة الدموية ويحتوي على مركبات مضادة للأكسدة.",
+      "image": "/uploads/1767544191384-pexels-brunoscramgnon-23042.jpg",
+      "createdAt": "2026-01-04T16:30:01.980Z"
+    },
+    {
+      "id": "cmjzy8f00000pnouk2bgk0hks",
+      "categoryEn": "Fruits",
+      "categoryAr": "فواكه",
+      "nameEn": "Mango",
+      "nameAr": "مانجو",
+      "benefitsEn": "Rich in vitamins A and C, supports vision and strengthens the immune system.",
+      "benefitsAr": "غني بفيتامين A وC، يساعد في تحسين الرؤية وتقوية جهاز المناعة.",
+      "image": "/uploads/1767544280767-pexels-roman-odintsov-4955253.jpg",
+      "createdAt": "2026-01-04T16:31:30.288Z"
+    },
+    {
+      "id": "cmjzybvxo000qnoukk9du3gyl",
+      "categoryEn": "Fruits",
+      "categoryAr": "فواكه",
+      "nameEn": "Pineapple",
+      "nameAr": "أناناس",
+      "benefitsEn": "Contains enzymes that aid digestion and reduce inflammation",
+      "benefitsAr": "يحتوي على إنزيمات تساعد على الهضم وتقليل الالتهابات.\n",
+      "image": "/uploads/1767544426862-pexels-brett-sayles-1171175.jpg",
+      "createdAt": "2026-01-04T16:34:12.204Z"
+    },
+    {
+      "id": "cmjzyd5p0000rnouk05swxrvm",
+      "categoryEn": "Fruits",
+      "categoryAr": "فواكه",
+      "nameEn": "Watermelon",
+      "nameAr": "بطيخ",
+      "benefitsEn": "High in water content, helps hydrate the body and supports heart health",
+      "benefitsAr": "غني بالماء، يساعد على ترطيب الجسم ودعم صحة القلب.\n",
+      "image": "/uploads/1767544495082-pexels-pixabay-260426.jpg",
+      "createdAt": "2026-01-04T16:35:11.508Z"
+    },
+    {
+      "id": "cmjzyeszk000snoukday2kcz9",
+      "categoryEn": "Fruits",
+      "categoryAr": "فواكه",
+      "nameEn": "Pear",
+      "nameAr": "كمثرى",
+      "benefitsEn": "Helps improve digestion and regulate bowel movements due to fiber",
+      "benefitsAr": "تساعد على تحسين الهضم وتنظيم حركة الأمعاء بفضل الألياف.\n",
+      "image": "/uploads/1767544559586-pexels-any-lane-5945906.jpg",
+      "createdAt": "2026-01-04T16:36:28.352Z"
+    },
+    {
+      "id": "cmjzyg3uk000tnouk32jj16qe",
+      "categoryEn": "Fruits",
+      "categoryAr": "فواكه",
+      "nameEn": "Kiwi",
+      "nameAr": "كيوي",
+      "benefitsEn": "High in vitamin C, boosts immunity and improves digestive health",
+      "benefitsAr": "غني بفيتامين C، يعزز المناعة ويحسن صحة الجهاز الهضمي.\n",
+      "image": "/uploads/1767544630926-pexels-any-lane-5945720.jpg",
+      "createdAt": "2026-01-04T16:37:29.084Z"
+    },
+    {
+      "id": "cmjzyhpb9000unoukkzsigsgn",
+      "categoryEn": "Fruits",
+      "categoryAr": "فواكه",
+      "nameEn": "Pomegranate",
+      "nameAr": "رمان",
+      "benefitsEn": "Supports heart health, reduces inflammation, and improves blood circulation.",
+      "benefitsAr": "يدعم صحة القلب ويقلل الالتهابات ويحسن الدورة الدموية.\n",
+      "image": "/uploads/1767544697564-pexels-pixabay-65256.jpg",
+      "createdAt": "2026-01-04T16:38:43.557Z"
+    },
+    {
+      "id": "cmjzyixw1000vnouklih8l6n3",
+      "categoryEn": "Fruits",
+      "categoryAr": "فواكه",
+      "nameEn": "Peach",
+      "nameAr": "خوخ",
+      "benefitsEn": "Aids digestion and supports healthy skin.",
+      "benefitsAr": "يساعد على تحسين الهضم ويدعم صحة البشرة.\n",
+      "image": "/uploads/1767544762912-pexels-karola-g-5237735.jpg",
+      "createdAt": "2026-01-04T16:39:41.330Z"
+    },
+    {
+      "id": "cmjzyk12p000wnoukt6kic5hs",
+      "categoryEn": "Fruits",
+      "categoryAr": "فواكه",
+      "nameEn": "Cherry",
+      "nameAr": "كرز",
+      "benefitsEn": "Reduces inflammation and helps improve sleep quality.",
+      "benefitsAr": "يقلل الالتهابات ويساعد في تحسين جودة النوم.\n",
+      "image": "/uploads/1767544821910-pexels-wendyaffieplaas-1178610.jpg",
+      "createdAt": "2026-01-04T16:40:32.114Z"
+    },
+    {
+      "id": "cmjzyn2q8000xnouktbygmdqm",
+      "categoryEn": "Fruits",
+      "categoryAr": "فواكه",
+      "nameEn": "Fig",
+      "nameAr": "تين",
+      "benefitsEn": "Supports digestive health and contributes to stronger bones.",
+      "benefitsAr": "يدعم صحة الجهاز الهضمي ويُسهم في تقوية العظام.\n",
+      "image": "/uploads/1767544971853-pexels-pixabay-33791.jpg",
+      "createdAt": "2026-01-04T16:42:54.224Z"
+    },
+    {
+      "id": "cmjzyof5g000ynoukc978wn6q",
+      "categoryEn": "Fruits",
+      "categoryAr": "فواكه",
+      "nameEn": "Dates",
+      "nameAr": "تمر",
+      "benefitsEn": "A natural energy source, rich in minerals, and supports digestion.",
+      "benefitsAr": "مصدر طبيعي للطاقة، غني بالمعادن ويدعم صحة الجهاز الهضمي.\n",
+      "image": "/uploads/1767545021972-pexels-riki-risnandar-2265311-3993529.jpg",
+      "createdAt": "2026-01-04T16:43:56.980Z"
+    },
+    {
+      "id": "cmjzypvqh000znoukc729t37x",
+      "categoryEn": "Fruits",
+      "categoryAr": "فواكه",
+      "nameEn": "Guava",
+      "nameAr": "جوافة",
+      "benefitsEn": "High in vitamin C and fiber, supports immunity and digestive health.",
+      "benefitsAr": "غنية بفيتامين C والألياف، تدعم المناعة وصحة الجهاز الهضمي.\n",
+      "image": "/uploads/1767545092148-pexels-dhruvrchauhan-13546471.jpg",
+      "createdAt": "2026-01-04T16:45:05.129Z"
+    },
+    {
+      "id": "cmjzyrj2k0010nouk5skvrsvb",
+      "categoryEn": "Fruits",
+      "categoryAr": "فواكه",
+      "nameEn": "Melon",
+      "nameAr": "شمام",
+      "benefitsEn": "Helps hydrate the body and supports skin and eye health.",
+      "benefitsAr": "يساعد على ترطيب الجسم ويدعم صحة الجلد والبصر.\n",
+      "image": "/uploads/1767545172141-pexels-mart-production-7890202.jpg",
+      "createdAt": "2026-01-04T16:46:22.028Z"
+    },
+    {
+      "id": "cmjzzq5pt0011noukebssyg26",
+      "categoryEn": "Vegetables",
+      "categoryAr": "خضروات",
+      "nameEn": "Carrot",
+      "nameAr": "جزر",
+      "benefitsEn": "Rich in vitamin A, improves eye health and supports healthy skin.",
+      "benefitsAr": "غني بفيتامين A، يحسن صحة العين ويعزز صحة الجلد.\n",
+      "image": "/uploads/1767546716059-pexels-mali-143133.jpg",
+      "createdAt": "2026-01-04T17:13:17.659Z"
+    },
+    {
+      "id": "cmjzzrp930012nouknkmygkkw",
+      "categoryEn": "Vegetables",
+      "categoryAr": "خضروات",
+      "nameEn": "Tomato",
+      "nameAr": "طماطم",
+      "benefitsEn": "Supports heart health due to lycopene and helps protect cells from damage.",
+      "benefitsAr": "تدعم صحة القلب لاحتوائها على الليكوبين، وتُسهم في حماية الخلايا من التلف.\n",
+      "image": "/uploads/1767546855504-pexels-rauf-allahverdiyev-561368-1367242.jpg",
+      "createdAt": "2026-01-04T17:14:29.656Z"
+    },
+    {
+      "id": "cmjzzt48o0013nouk9038wiii",
+      "categoryEn": "Vegetables",
+      "categoryAr": "خضروات",
+      "nameEn": "Cucumber",
+      "nameAr": "خيار",
+      "benefitsEn": "High in water content, helps hydrate the body and improve skin health",
+      "benefitsAr": "غني بالماء، يساعد على ترطيب الجسم وتحسين صحة الجلد.\n",
+      "image": "/uploads/1767546921975-pexels-a-darmel-7223302.jpg",
+      "createdAt": "2026-01-04T17:15:35.736Z"
+    },
+    {
+      "id": "cmjzzud3x0014nouk96exbxvv",
+      "categoryEn": "Vegetables",
+      "categoryAr": "خضروات",
+      "nameEn": "Zucchini",
+      "nameAr": "كوسا",
+      "benefitsEn": "Low in calories, aids digestion and supports heart health.",
+      "benefitsAr": "خفيفة السعرات، تساعد على تحسين الهضم ودعم صحة القلب.\n",
+      "image": "/uploads/1767546981656-pexels-lucaspezeta-11643026.jpg",
+      "createdAt": "2026-01-04T17:16:33.885Z"
+    },
+    {
+      "id": "cmjzzvtfm0015noukqmzvwx6z",
+      "categoryEn": "Vegetables",
+      "categoryAr": "خضروات",
+      "nameEn": "Onion",
+      "nameAr": "بصل",
+      "benefitsEn": "Contains antibacterial compounds, supports immunity and heart health.",
+      "benefitsAr": "يحتوي على مركبات مضادة للبكتيريا، يدعم المناعة وصحة القلب.\n",
+      "image": "/uploads/1767547030699-pexels-karola-g-4197444.jpg",
+      "createdAt": "2026-01-04T17:17:41.698Z"
+    },
+    {
+      "id": "cmjzzx1f40016noukw3slczrp",
+      "categoryEn": "Vegetables",
+      "categoryAr": "خضروات",
+      "nameEn": "Garlic",
+      "nameAr": "ثوم",
+      "benefitsEn": "Boosts immunity, helps lower blood pressure, and improves heart health.",
+      "benefitsAr": "يعزز المناعة، يساعد في خفض ضغط الدم وتحسين صحة القلب.\n",
+      "image": "/uploads/1767547102039-pexels-isabella-mendes-107313-928251.jpg",
+      "createdAt": "2026-01-04T17:18:38.704Z"
+    },
+    {
+      "id": "cmjzzy5ew0017noukjx9m9zrh",
+      "categoryEn": "Vegetables",
+      "categoryAr": "خضروات",
+      "nameEn": "Cabbage",
+      "nameAr": "ملفوف",
+      "benefitsEn": "Supports digestive health and contains vitamins C and K.",
+      "benefitsAr": "يدعم صحة الجهاز الهضمي ويحتوي على فيتامين C وK.\n",
+      "image": "/uploads/1767547158675-pexels-arina-krasnikova-6316536.jpg",
+      "createdAt": "2026-01-04T17:19:30.536Z"
+    },
+    {
+      "id": "cmjzzzkob0018nouk6lkpagiq",
+      "categoryEn": "Vegetables",
+      "categoryAr": "خضروات",
+      "nameEn": "Lettuce",
+      "nameAr": "خس",
+      "benefitsEn": "Helps hydrate the body and supports digestive health.",
+      "benefitsAr": "يساعد على ترطيب الجسم ويدعم صحة الجهاز الهضمي.\n",
+      "image": "/uploads/1767547227110-pexels-zandatsu-31508562.jpg",
+      "createdAt": "2026-01-04T17:20:36.971Z"
+    },
+    {
+      "id": "cmk000zav0019nouklfk4hatk",
+      "categoryEn": "Vegetables",
+      "categoryAr": "خضروات",
+      "nameEn": "Eggplant",
+      "nameAr": "باذنجان",
+      "benefitsEn": "Contains antioxidants, supports brain and heart health",
+      "benefitsAr": "يحتوي على مضادات أكسدة، يدعم صحة الدماغ والقلب.\n",
+      "image": "/uploads/1767547289926-pexels-richa-varshney-3635708-33519030.jpg",
+      "createdAt": "2026-01-04T17:21:42.583Z"
+    },
+    {
+      "id": "cmk00275q001anouki1sqagps",
+      "categoryEn": "Vegetables",
+      "categoryAr": "خضروات",
+      "nameEn": "Peas",
+      "nameAr": "بازلاء",
+      "benefitsEn": "A good source of plant protein and fiber, supports muscle and digestive health.",
+      "benefitsAr": "مصدر جيد للبروتين النباتي والألياف، تدعم صحة العضلات والهضم.\n",
+      "image": "/uploads/1767547350022-pexels-r-khalil-250162-768090.jpg",
+      "createdAt": "2026-01-04T17:22:39.422Z"
+    },
+    {
+      "id": "cmk003hm2001bnouk455x5a22",
+      "categoryEn": "Vegetables",
+      "categoryAr": "خضروات",
+      "nameEn": "Green Beans",
+      "nameAr": "الفاصولياء الخضراء",
+      "benefitsEn": "Promotes bone health and supports heart health.",
+      "benefitsAr": "تعزز صحة العظام وتدعم صحة القلب.\n",
+      "image": "/uploads/1767547405377-pexels-victoria-bowers-148548814-10487661.jpg",
+      "createdAt": "2026-01-04T17:23:39.627Z"
+    },
+    {
+      "id": "cmk004r62001cnoukr7p7ld6u",
+      "categoryEn": "Vegetables",
+      "categoryAr": "خضروات",
+      "nameEn": "Beetroot",
+      "nameAr": "شمندر",
+      "benefitsEn": "Improves blood circulation and enhances physical performance.",
+      "benefitsAr": "يساعد على تحسين الدورة الدموية وزيادة القدرة البدنية.\n",
+      "image": "/uploads/1767547468467-pexels-marceloverfe-29436276.jpg",
+      "createdAt": "2026-01-04T17:24:38.667Z"
+    },
+    {
+      "id": "cmk0064au001dnoukc2y9ksj3",
+      "categoryEn": "Vegetables",
+      "categoryAr": "خضروات",
+      "nameEn": "Sweet Potato",
+      "nameAr": "البطاطا الحلوة",
+      "benefitsEn": " ()\nRich in fiber and vitamin A, supports immunity and gut health.",
+      "benefitsAr": "غنية بالألياف وفيتامين A، تدعم المناعة وصحة الأمعاء.\n",
+      "image": "/uploads/1767547535333-pexels-kindelmedia-7456548.jpg",
+      "createdAt": "2026-01-04T17:25:42.342Z"
+    },
+    {
+      "id": "cmk007xkf001enouk7urwwz9n",
+      "categoryEn": "Vegetables",
+      "categoryAr": "خضروات",
+      "nameEn": "Radish",
+      "nameAr": "فجل",
+      "benefitsEn": "Aids digestion and helps cleanse the body.",
+      "benefitsAr": "يساعد في تحسين الهضم وتنقية الجسم.\n",
+      "image": "/uploads/1767547593604-pexels-wendyaffieplaas-2476542.jpg",
+      "createdAt": "2026-01-04T17:27:06.928Z"
+    },
+    {
+      "id": "cmk0099f7001fnoukrepzbynp",
+      "categoryEn": "Vegetables",
+      "categoryAr": "خضروات",
+      "nameEn": "Corn",
+      "nameAr": "ذرة",
+      "benefitsEn": "Provides energy and supports eye and digestive health.",
+      "benefitsAr": "مصدر للطاقة، يدعم صحة العين والجهاز الهضمي.\n",
+      "image": "/uploads/1767547673555-pexels-neosiam-603030.jpg",
+      "createdAt": "2026-01-04T17:28:08.946Z"
+    },
+    {
+      "id": "cmk00b89t001gnoukpkmsn56i",
+      "categoryEn": "Vegetables",
+      "categoryAr": "خضروات",
+      "nameEn": "Leek",
+      "nameAr": "كراث",
+      "benefitsEn": "Supports heart and immune health and improves digestion.",
+      "benefitsAr": "يدعم صحة القلب والجهاز المناعي ويُحسّن الهضم.\n",
+      "image": "/uploads/1767547770796-pexels-polina-tankilevitch-8599718.jpg",
+      "createdAt": "2026-01-04T17:29:40.769Z"
+    },
+    {
+      "id": "cmk00qaje001hnouko1bkgda8",
+      "categoryEn": "Herbs",
+      "categoryAr": "أعشاب",
+      "nameEn": "Mint",
+      "nameAr": "نعناع",
+      "benefitsEn": "Helps improve digestion, soothe the stomach, and reduce bloating and gas.",
+      "benefitsAr": "يساعد على تحسين الهضم، تهدئة المعدة، وتقليل الانتفاخ والغازات.\n",
+      "image": "/uploads/1767548471564-pexels-magdalena-nowak-1836469-4500468.jpg",
+      "createdAt": "2026-01-04T17:41:23.547Z"
+    },
+    {
+      "id": "cmk00ry2s001inoukheqxul5x",
+      "categoryEn": "Herbs",
+      "categoryAr": "أعشاب",
+      "nameEn": "Chamomile",
+      "nameAr": "بابونج",
+      "benefitsEn": "Promotes relaxation, improves sleep quality, and calms the nerves.",
+      "benefitsAr": "يساعد على الاسترخاء، تحسين جودة النوم، وتهدئة الأعصاب.\n",
+      "image": "/uploads/1767548546931-pexels-pixabay-206792.jpg",
+      "createdAt": "2026-01-04T17:42:40.708Z"
+    },
+    {
+      "id": "cmk00t129001jnoukkqrcvhg0",
+      "categoryEn": "Herbs",
+      "categoryAr": "أعشاب",
+      "nameEn": "Cinnamon",
+      "nameAr": "قرفة",
+      "benefitsEn": "Helps regulate blood sugar levels and improve metabolism.",
+      "benefitsAr": "تساعد على تنظيم مستوى السكر في الدم وتحسين عملية الأيض.\n",
+      "image": "/uploads/1767548601718-pexels-pixabay-301669.jpg",
+      "createdAt": "2026-01-04T17:43:31.233Z"
+    },
+    {
+      "id": "cmk00uh1i001knouk4gpvnrkt",
+      "categoryEn": "Herbs",
+      "categoryAr": "أعشاب",
+      "nameEn": "Rosemary",
+      "nameAr": "أكليل الجبل",
+      "benefitsEn": "Enhances memory and concentration and supports nervous system health.",
+      "benefitsAr": "يعزز الذاكرة والتركيز ويدعم صحة الجهاز العصبي.\n",
+      "image": "/uploads/1767548997190-pexels-lachlan-ross-5967853.jpg",
+      "createdAt": "2026-01-04T17:44:38.599Z"
+    },
+    {
+      "id": "cmk00vt43001lnoukckovol2b",
+      "categoryEn": "Herbs",
+      "categoryAr": "أعشاب",
+      "nameEn": "Thyme",
+      "nameAr": "زعتر",
+      "benefitsEn": "Supports respiratory health and strengthens immunity.",
+      "benefitsAr": "يدعم صحة الجهاز التنفسي ويقوي المناعة.\n",
+      "image": "/uploads/1767548729267-pexels-karola-g-4198143.jpg",
+      "createdAt": "2026-01-04T17:45:40.900Z"
+    },
+    {
+      "id": "cmk00y9zd001mnoukud4q1zf9",
+      "categoryEn": "Herbs",
+      "categoryAr": "أعشاب",
+      "nameEn": "Sage",
+      "nameAr": "ميرمية",
+      "benefitsEn": "Aids digestion, reduces excessive sweating, and supports oral health.",
+      "benefitsAr": "تساعد على تحسين الهضم وتقليل التعرق ودعم صحة الفم.\n",
+      "image": "/uploads/1767549256111-pexels-shuvalova-natalia-415991090-15478675.jpg",
+      "createdAt": "2026-01-04T17:47:36.074Z"
+    },
+    {
+      "id": "cmk00zgkj001nnouk5eyf95p8",
+      "categoryEn": "Herbs",
+      "categoryAr": "أعشاب",
+      "nameEn": "Fenugreek",
+      "nameAr": "حلبة",
+      "benefitsEn": "Helps improve digestion, regulate blood sugar, and support overall energy.",
+      "benefitsAr": "تساعد على تحسين الهضم، تنظيم السكر في الدم، ودعم الطاقة العامة للجسم.\n",
+      "image": "/uploads/1767548899202-pexels-shkrabaanthony-7175976.jpg",
+      "createdAt": "2026-01-04T17:48:31.268Z"
+    }
+  ]
+}
