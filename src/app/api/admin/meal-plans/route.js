@@ -2,6 +2,7 @@ import { prisma } from '@/lib/prisma';
 import { getServerSession } from 'next-auth';
 import { authOptions } from '@/app/api/auth/[...nextauth]/route';
 import { NextResponse } from 'next/server';
+import { revalidatePath } from 'next/cache';
 
 async function checkAdmin() {
     const session = await getServerSession(authOptions);
@@ -27,6 +28,7 @@ export async function POST(req) {
             image: body.image,
         }
     });
+    revalidatePath('/meal-plans');
     return NextResponse.json(item);
 }
 
@@ -45,6 +47,7 @@ export async function PUT(req) {
             image: data.image,
         }
     });
+    revalidatePath('/meal-plans');
     return NextResponse.json(item);
 }
 
@@ -53,5 +56,6 @@ export async function DELETE(req) {
     const { searchParams } = new URL(req.url);
     const id = searchParams.get('id');
     await prisma.mealPlan.delete({ where: { id } });
+    revalidatePath('/meal-plans');
     return NextResponse.json({ success: true });
 }
