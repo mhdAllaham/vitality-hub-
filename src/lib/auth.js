@@ -61,4 +61,10 @@ export const authOptions = {
         }
     },
     secret: process.env.NEXTAUTH_SECRET,
+    debug: process.env.NODE_ENV === 'development' || true, // Force true for now to debug production
+    logger: {
+        error(code, metadata) {
+            console.error('NEXTAUTH_ERROR', code, metadata);
+        },
+    }
 };
