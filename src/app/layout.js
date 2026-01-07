@@ -12,13 +12,20 @@ export const metadata = {
   title: 'Vitality Hub - Premium Health & Fitness',
   description: 'Your personal health and fitness companion',
   manifest: '/manifest.json',
-  themeColor: '#2ecc71',
-  viewport: 'width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0, viewport-fit=cover',
   appleWebApp: {
     capable: true,
     statusBarStyle: 'default',
     title: 'Vitality Hub',
   },
+};
+
+export const viewport = {
+  themeColor: '#2ecc71',
+  width: 'device-width',
+  initialScale: 1,
+  maximumScale: 1,
+  userScalable: false,
+  viewportFit: 'cover',
 };
 
 export default function RootLayout({ children }) {
