@@ -1,6 +1,8 @@
 import { prisma } from '@/lib/prisma';
 import HealthyFoodsContent from '@/components/HealthyFoodsContent';
 
+export const dynamic = 'force-dynamic';
+
 export default async function HealthyFoodsPage() {
     const foods = await prisma.healthyFood.findMany();
 

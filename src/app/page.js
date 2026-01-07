@@ -1,6 +1,8 @@
 import { prisma } from '@/lib/prisma';
 import HomeContent from '@/components/HomeContent';
 
+export const dynamic = 'force-dynamic';
+
 async function getHealthTip() {
   const count = await prisma.healthTip.count();
   if (count === 0) return null;
