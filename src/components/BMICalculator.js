@@ -34,7 +34,7 @@ export default function BMICalculator() {
                     value={weight}
                     onChange={(e) => setWeight(e.target.value)}
                     className="glass"
-                    style={{ background: 'rgba(255,255,255,0.05)', border: '1px solid var(--glass-border)', color: 'white', padding: '0.8rem', borderRadius: 'var(--radius)' }}
+                    style={{ background: 'rgba(255,255,255,0.05)', border: '1px solid var(--glass-border)', color: 'white', padding: '0.8rem', borderRadius: 'var(--radius)', width: '100%', boxSizing: 'border-box' }}
                 />
                 <input
                     type="number"
@@ -42,7 +42,7 @@ export default function BMICalculator() {
                     value={height}
                     onChange={(e) => setHeight(e.target.value)}
                     className="glass"
-                    style={{ background: 'rgba(255,255,255,0.05)', border: '1px solid var(--glass-border)', color: 'white', padding: '0.8rem', borderRadius: 'var(--radius)' }}
+                    style={{ background: 'rgba(255,255,255,0.05)', border: '1px solid var(--glass-border)', color: 'white', padding: '0.8rem', borderRadius: 'var(--radius)', width: '100%', boxSizing: 'border-box' }}
                 />
                 <button onClick={calculateBMI} className="btn-primary" style={{ width: '100%' }}>
                     {language === 'ar' ? 'احسب' : 'Calculate'}

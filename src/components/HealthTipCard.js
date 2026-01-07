@@ -22,12 +22,12 @@ export default function HealthTipCard({ initialTip }) {
     const tipContent = language === 'ar' ? tip?.contentAr : tip?.contentEn;
 
     return (
-        <div className="card glass" style={{ minHeight: '200px', display: 'flex', flexDirection: 'column', justifyContent: 'space-between', borderLeft: '4px solid var(--primary)' }}>
+        <div className="card glass" style={{ minHeight: '180px', display: 'flex', flexDirection: 'column', justifyContent: 'space-between', borderLeft: '4px solid var(--primary)', padding: '1.2rem', width: '100%', boxSizing: 'border-box' }}>
             <div>
-                <div style={{ display: 'flex', alignItems: 'center', gap: '1rem', marginBottom: '1.2rem' }}>
-                    <h3 style={{ fontSize: '1.2rem' }}>{t('healthTip')}</h3>
+                <div style={{ display: 'flex', alignItems: 'center', gap: '1rem', marginBottom: '1rem' }}>
+                    <h3 style={{ fontSize: '1.1rem' }}>{t('healthTip')}</h3>
                 </div>
-                <p style={{ fontSize: '1.1rem', color: '#e4e4e7', lineHeight: '1.6', fontStyle: 'italic' }}>
+                <p style={{ fontSize: 'clamp(1rem, 4.5vw, 1.1rem)', color: '#e4e4e7', lineHeight: '1.6', fontStyle: 'italic' }}>
                     &quot;{tipContent || t('noTip')}&quot;
                 </p>
             </div>
