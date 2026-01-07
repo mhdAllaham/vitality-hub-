@@ -60,7 +60,7 @@ export const authOptions = {
             return token;
         }
     },
-    secret: process.env.NEXTAUTH_SECRET,
+    secret: process.env.NEXTAUTH_SECRET || "vitality_hub_fallback_secret_2026_safe",
     debug: process.env.NODE_ENV === 'development' || true, // Force true for now to debug production
     logger: {
         error(code, metadata) {
