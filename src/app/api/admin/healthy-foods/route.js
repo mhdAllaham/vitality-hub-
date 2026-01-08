@@ -59,5 +59,6 @@ export async function DELETE(req) {
     const id = searchParams.get('id');
     await prisma.healthyFood.delete({ where: { id } });
     revalidatePath('/healthy-foods');
+    revalidatePath('/');
     return NextResponse.json({ success: true });
 }

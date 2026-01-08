@@ -62,5 +62,6 @@ export async function DELETE(req) {
     const id = searchParams.get('id');
     await prisma.exercise.delete({ where: { id } });
     revalidatePath('/exercises');
+    revalidatePath('/');
     return NextResponse.json({ success: true });
 }

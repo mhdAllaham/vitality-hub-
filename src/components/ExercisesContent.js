@@ -69,7 +69,7 @@ function ExerciseCard({ exercise, language, t }) {
                         src={exercise.image || 'https://images.unsplash.com/photo-1517836357463-d25dfeac3438?q=80&w=400'}
                         alt={name}
                         fill
-                        style={{ objectFit: 'cover', objectPosition: 'bottom' }}
+                        style={{ objectFit: 'cover' }}
                     />
                 </div>
                 <div style={{ padding: '1.5rem', background: 'rgba(0,0,0,0.2)' }}>
