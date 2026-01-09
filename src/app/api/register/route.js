@@ -4,7 +4,7 @@ import { NextResponse } from 'next/server';
 
 export async function POST(req) {
     try {
-        const { name, email, password } = await req.json();
+        const { name, email, password, height, weight, gender, age } = await req.json();
 
         if (!email || !password) {
             return NextResponse.json({ error: 'Email and password are required' }, { status: 400 });
@@ -20,13 +20,33 @@ export async function POST(req) {
 
         const hashedPassword = await bcrypt.hash(password, 10);
 
+        // Calculate BMI
+        let bmi = null;
+        let bmiClass = null;
+        if (weight && height) {
+            const hInMeters = height / 100;
+            bmi = parseFloat((weight / (hInMeters * hInMeters)).toFixed(1));
+
+            if (bmi < 18.5) bmiClass = 'Underweight';
+            else if (bmi < 25) bmiClass = 'Normal weight';
+            else if (bmi < 30) bmiClass = 'Overweight';
+            else bmiClass = 'Obese';
+        }
+
         const user = await prisma.user.create({
             data: {
                 name,
                 email,
                 password: hashedPassword,
                 healthData: {
-                    create: {} // Initialize empty health data
+                    create: {
+                        weight: weight ? parseFloat(weight) : null,
+                        height: height ? parseFloat(height) : null,
+                        age: age ? parseInt(age) : null,
+                        gender,
+                        bmi,
+                        bmiClass
+                    }
                 }
             }
         });

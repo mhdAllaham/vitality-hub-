@@ -31,6 +31,8 @@ export const translations = {
         cancel: "Cancel",
         actions: "Actions",
         name: "Name",
+        bmi: "BMI",
+        bmiClass: "Classification",
         description: "Description",
         category: "Category",
         image: "Image URL",
@@ -48,6 +50,30 @@ export const translations = {
         benefitsEn: "Benefits (English)",
         benefitsAr: "الفوائد (عربي)",
         confirmDelete: "Are you sure you want to delete this item?",
+        waterTitle: "Importance of Drinking Water",
+        sleepTitle: "Importance of Sleep for the Body",
+        waterCards: [
+            { title: "Drink water regularly throughout the day", desc: "It is recommended to drink water at regular intervals during the day and not wait until you feel thirsty, as thirst is a late sign of dehydration.", image: "/images/water/pexels-karola-g-4378127.webp" },
+            { title: "Start your day with a glass of water", desc: "Drinking a glass of water upon waking helps activate the body, replace fluids lost during sleep, and stimulate metabolism.", image: "/images/water/pexels-karola-g-6032816.webp" },
+            { title: "Increase water intake during exercise", desc: "During physical activity, the body loses fluids through sweating, so drinking water before, during, and after exercise is essential to stay hydrated.", image: "/images/water/pexels-mart-production-8869251.webp" },
+            { title: "Drink water before meals", desc: "Drinking water before meals helps improve digestion and creates a feeling of fullness, which may reduce overeating.", image: "/images/water/pexels-maumascaro-907865.webp" },
+            { title: "Carry a water bottle at all times", desc: "Keeping a water bottle with you encourages regular drinking and helps meet your daily fluid needs.", image: "/images/water/pexels-pixabay-416528-_1_.webp" },
+            { title: "Drink water even if you do not feel thirsty", desc: "Not feeling thirsty does not mean your body does not need water, especially in hot weather or during long periods of sitting.", image: "/images/water/pexels-pixabay-416528.webp" },
+            { title: "Replace sugary drinks with water", desc: "Replacing sugary and carbonated drinks with water helps reduce sugar and calorie intake and supports better health.", image: "/images/water/pexels-pixabay-556414.webp" },
+            { title: "Increase water intake in hot weather", desc: "In hot weather, the body loses fluids more quickly, so increasing water intake is necessary to maintain fluid balance.", image: "/images/water/pexels-victorcandiani-5421109.webp" },
+            { title: "Monitor urine color as a hydration indicator", desc: "Light-colored urine indicates good hydration, while dark-colored urine signals the need to drink more water.", image: "/images/water/pexels-yogendras31-1469874.webp" }
+        ],
+        sleepCards: [
+            { title: "Body repair and cell regeneration", desc: "During sleep, the body carries out vital processes to repair damaged tissues and regenerate cells, especially muscle and skin cells. Growth hormone is released more during deep sleep, which is essential for growth, recovery, and maintaining overall health.", image: "/images/sleep/pexels-cottonbro-5801240.jpg" },
+            { title: "Enhancing brain health and cognitive functions", desc: "Quality sleep is essential for memory consolidation and improving learning and decision-making abilities. During sleep, the brain processes and organizes information acquired throughout the day, enhancing focus and mental alertness.", image: "/images/sleep/pexels-ivone-de-melo-1450251-2797865.jpg" },
+            { title: "Strengthening the immune system", desc: "Adequate sleep helps the body produce immune cells and infection-fighting proteins. Lack of sleep weakens immune defenses and prolongs recovery from illnesses.", image: "/images/sleep/pexels-ketut-subiyanto-4473864.jpg" },
+            { title: "Hormonal balance and appetite regulation", desc: "Sleep plays a key role in regulating hormones responsible for hunger and fullness. Insufficient sleep increases appetite and disrupts hormonal balance, which may lead to weight gain.", image: "/images/sleep/pexels-olly-3771095.jpg" },
+            { title: "Improving mental health and mood", desc: "Good sleep helps reduce stress and anxiety while improving overall mood. In contrast, sleep deprivation leads to irritability, mood swings, and reduced emotional control.", image: "/images/sleep/pexels-olly-3807624.jpg" },
+            { title: "Supporting heart and cardiovascular health", desc: "Regular sleep helps regulate blood pressure and heart rate. Chronic sleep deprivation increases the risk of heart disease and high blood pressure.", image: "/images/sleep/pexels-olly-3807760.jpg" },
+            { title: "Improving physical and athletic performance", desc: "Sleep gives muscles sufficient time to recover and enhances strength and endurance. It also reduces fatigue, improves reaction time, and lowers injury risk.", image: "/images/sleep/pexels-olly-920380.jpg" },
+            { title: "Regulating the body’s biological clock", desc: "Consistent sleep helps regulate the body’s internal clock, affecting energy levels, hormone release, and overall sleep quality.", image: "/images/sleep/pexels-vanyaoboleninov-935777.jpg" },
+            { title: "Preventing chronic diseases and improving quality of life", desc: "Quality sleep reduces the risk of chronic diseases such as diabetes, obesity, and depression, while enhancing energy, productivity, and overall quality of life.", image: "/images/sleep/pexels-vlada-karpovich-5357341.jpg" }
+        ]
     },
     ar: {
         home: "الرئيسية",
@@ -81,6 +107,8 @@ export const translations = {
         cancel: "إلغاء",
         actions: "إجراءات",
         name: "الاسم",
+        bmi: "مؤشر كتلة الجسم",
+        bmiClass: "التصنيف",
         description: "الوصف",
         category: "الفئة",
         image: "رابط الصورة",
@@ -98,5 +126,29 @@ export const translations = {
         benefitsEn: "الفوائد (إنجليزي)",
         benefitsAr: "الفوائد (عربي)",
         confirmDelete: "هل أنت متأكد من حذف هذا العنصر؟",
+        waterTitle: "أهمية شرب الماء",
+        sleepTitle: "أهمية النوم للجسم",
+        waterCards: [
+            { title: "شرب الماء بانتظام طوال اليوم", desc: "يُنصح بشرب الماء على فترات منتظمة خلال اليوم، وعدم الانتظار حتى الشعور بالعطش، لأن العطش يُعد علامة متأخرة على الجفاف.", image: "/images/water/pexels-karola-g-4378127.webp" },
+            { title: "بدء اليوم بكوب من الماء", desc: "شرب كوب من الماء فور الاستيقاظ يساعد على تنشيط الجسم، وتعويض السوائل المفقودة أثناء النوم، وتحفيز عملية الأيض.", image: "/images/water/pexels-karola-g-6032816.webp" },
+            { title: "زيادة شرب الماء أثناء التمارين الرياضية", desc: "أثناء النشاط البدني يفقد الجسم كميات من السوائل عبر التعرق، لذلك يجب شرب الماء قبل التمرين وأثناءه وبعده للحفاظ على الترطيب.", image: "/images/water/pexels-mart-production-8869251.webp" },
+            { title: "شرب الماء قبل الوجبات", desc: "شرب الماء قبل الأكل يساعد على تحسين الهضم ويمنح شعورًا بالامتلاء، مما قد يساهم في تقليل الإفراط في تناول الطعام.", image: "/images/water/pexels-maumascaro-907865.webp" },
+            { title: "حمل زجاجة ماء دائمًا", desc: "الاحتفاظ بزجاجة ماء قريبة منك يشجع على الشرب المنتظم ويساعد على تلبية احتياجات الجسم اليومية من السوائل.", image: "/images/water/pexels-pixabay-416528-_1_.webp" },
+            { title: "شرب الماء حتى عند عدم الشعور بالعطش", desc: "عدم الإحساس بالعطش لا يعني أن الجسم لا يحتاج إلى الماء، خاصة في الأجواء الحارة أو أثناء الجلوس لفترات طويلة.", image: "/images/water/pexels-pixabay-416528.webp" },
+            { title: "تعويض المشروبات الغازية بالماء", desc: "استبدال المشروبات الغازية والمحلاة بالماء يساعد على تقليل استهلاك السكر والسعرات الحرارية والحفاظ على صحة أفضل.", image: "/images/water/pexels-pixabay-556414.webp" },
+            { title: "زيادة شرب الماء في الطقس الحار", desc: "في الأجواء الحارة يفقد الجسم السوائل بسرعة أكبر، لذلك يجب زيادة كمية الماء للحفاظ على توازن السوائل.", image: "/images/water/pexels-victorcandiani-5421109.webp" },
+            { title: "مراقبة لون البول كدليل على الترطيب", desc: "لون البول الفاتح يدل على ترطيب جيد، بينما يشير اللون الداكن إلى الحاجة لشرب المزيد من الماء.", image: "/images/water/pexels-yogendras31-1469874.webp" }
+        ],
+        sleepCards: [
+            { title: "إعادة ترميم الجسم وتجديد الخلايا", desc: "أثناء النوم يقوم الجسم بعمليات حيوية لإصلاح الأنسجة التالفة وتجديد الخلايا، خصوصًا خلايا العضلات والجلد. كما يتم إفراز هرمون النمو بشكل أكبر خلال النوم العميق، وهو ضروري للنمو، والتعافي، والحفاظ على صحة الجسم العامة.", image: "/images/sleep/pexels-cottonbro-5801240.jpg" },
+            { title: "تعزيز صحة الدماغ والوظائف العقلية", desc: "النوم الجيد ضروري لترسيخ المعلومات في الذاكرة وتحسين القدرة على التعلم واتخاذ القرارات. خلال النوم يعالج الدماغ المعلومات المكتسبة خلال اليوم وينظمها، مما يساهم في زيادة التركيز واليقظة الذهنية.", image: "/images/sleep/pexels-ivone-de-melo-1450251-2797865.jpg" },
+            { title: "تقوية جهاز المناعة", desc: "النوم الكافي يساعد الجسم على إنتاج الخلايا المناعية والبروتينات المقاومة للعدوى. قلة النوم تضعف قدرة الجهاز المناعي على مقاومة الأمراض وتطيل فترة التعافي.", image: "/images/sleep/pexels-ketut-subiyanto-4473864.jpg" },
+            { title: "تنظيم الهرمونات وضبط الشهية", desc: "يلعب النوم دورًا مهمًا في تنظيم الهرمونات المسؤولة عن الجوع والشبع. قلة النوم تؤدي إلى زيادة الشهية واضطراب التوازن الهرموني، مما قد يسبب زيادة الوزن.", image: "/images/sleep/pexels-olly-3771095.jpg" },
+            { title: "تحسين الحالة النفسية والمزاج", desc: "يساعد النوم الجيد على تقليل التوتر والقلق وتحسين المزاج العام. بينما تؤدي قلة النوم إلى العصبية وتقلب المزاج وانخفاض القدرة على التحكم بالمشاعر.", image: "/images/sleep/pexels-olly-3807624.jpg" },
+            { title: "دعم صحة القلب والأوعية الدموية", desc: "النوم المنتظم يساعد على تنظيم ضغط الدم ومعدل ضربات القلب. قلة النوم المزمنة تزيد من خطر الإصابة بأمراض القلب وارتفاع ضغط الدم.", image: "/images/sleep/pexels-olly-3807760.jpg" },
+            { title: "تحسين الأداء البدني والرياضي", desc: "يمنح النوم العضلات وقتًا كافيًا للتعافي ويعزز القوة والتحمل. كما يساعد على تقليل الإرهاق وتحسين سرعة الاستجابة وتقليل الإصابات.", image: "/images/sleep/pexels-olly-920380.jpg" },
+            { title: "تنظيم الساعة البيولوجية للجسم", desc: "يساعد النوم المنتظم على ضبط الساعة البيولوجية، مما يؤثر على مستويات الطاقة، وإفراز الهرمونات، وجودة النوم بشكل عام.", image: "/images/sleep/pexels-vanyaoboleninov-935777.jpg" },
+            { title: "الوقاية من الأمراض المزمنة وتحسين جودة الحياة", desc: "النوم الجيد يقلل من خطر الإصابة بالأمراض المزمنة مثل السكري والسمنة والاكتئاب، ويعزز النشاط والإنتاجية وجودة الحياة بشكل عام.", image: "/images/sleep/pexels-vlada-karpovich-5357341.jpg" }
+        ]
     },
 };

@@ -29,6 +29,7 @@ model HealthData {
   weight      Float?
   height      Float?
   age         Int?
+  gender      String?
   bmi         Float?
   bmiClass    String?
   updatedAt   DateTime @updatedAt

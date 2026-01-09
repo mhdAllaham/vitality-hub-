@@ -11,7 +11,7 @@ export async function POST(req) {
             return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
         }
 
-        const { weight, height, age, bmi, bmiClass } = await req.json();
+        const { weight, height, age, gender, bmi, bmiClass } = await req.json();
 
         const updatedHealthData = await prisma.healthData.upsert({
             where: { userId: session.user.id },
@@ -19,6 +19,7 @@ export async function POST(req) {
                 weight,
                 height,
                 age,
+                gender,
                 bmi,
                 bmiClass,
             },
@@ -27,6 +28,7 @@ export async function POST(req) {
                 weight,
                 height,
                 age,
+                gender,
                 bmi,
                 bmiClass,
             },

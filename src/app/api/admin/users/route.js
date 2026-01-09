@@ -11,10 +11,29 @@ async function checkAdmin() {
 export async function GET() {
     if (!await checkAdmin()) return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
     const items = await prisma.user.findMany({
-        select: { id: true, name: true, email: true, role: true, createdAt: true },
+        select: {
+            id: true,
+            name: true,
+            email: true,
+            role: true,
+            createdAt: true,
+            healthData: {
+                select: {
+                    bmi: true,
+                    bmiClass: true
+                }
+            }
+        },
         orderBy: { createdAt: 'desc' }
     });
-    return NextResponse.json(items);
+
+    const flattenedItems = items.map(item => ({
+        ...item,
+        bmi: item.healthData?.bmi || 'N/A',
+        bmiClass: item.healthData?.bmiClass || 'N/A'
+    }));
+
+    return NextResponse.json(flattenedItems);
 }
 
 export async function PUT(req) {
@@ -24,7 +43,7 @@ export async function PUT(req) {
     const item = await prisma.user.update({
         where: { id },
         data: { role },
-        select: { id: true, name: true, email: true, role: true }
+        select: { id: true, name: true, email: true, role: true, healthData: true }
     });
     return NextResponse.json(item);
 }

@@ -6,6 +6,7 @@ export default function ProfileForm({ initialData }) {
     const [weight, setWeight] = useState(initialData.weight || '');
     const [height, setHeight] = useState(initialData.height || '');
     const [age, setAge] = useState(initialData.age || '');
+    const [gender, setGender] = useState(initialData.gender || 'Male');
     const [loading, setLoading] = useState(false);
     const [message, setMessage] = useState('');
 
@@ -36,7 +37,14 @@ export default function ProfileForm({ initialData }) {
             const res = await fetch('/api/profile', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({ weight: parseFloat(weight), height: parseFloat(height), age: parseInt(age), bmi: parseFloat(currentBMI), bmiClass }),
+                body: JSON.stringify({
+                    weight: parseFloat(weight),
+                    height: parseFloat(height),
+                    age: parseInt(age),
+                    gender,
+                    bmi: parseFloat(currentBMI),
+                    bmiClass
+                }),
             });
 
             if (res.ok) {
@@ -76,15 +84,28 @@ export default function ProfileForm({ initialData }) {
                     />
                 </div>
             </div>
-            <div className="form-group">
-                <label className="form-label">Age</label>
-                <input
-                    className="form-input"
-                    type="number"
-                    value={age}
-                    onChange={(e) => setAge(e.target.value)}
-                    placeholder="e.g. 25"
-                />
+            <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1.5rem', marginBottom: '1.5rem' }}>
+                <div className="form-group">
+                    <label className="form-label">Age</label>
+                    <input
+                        className="form-input"
+                        type="number"
+                        value={age}
+                        onChange={(e) => setAge(e.target.value)}
+                        placeholder="e.g. 25"
+                    />
+                </div>
+                <div className="form-group">
+                    <label className="form-label">Gender</label>
+                    <select
+                        className="form-input"
+                        value={gender}
+                        onChange={(e) => setGender(e.target.value)}
+                    >
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                    </select>
+                </div>
             </div>
 
             {currentBMI && (

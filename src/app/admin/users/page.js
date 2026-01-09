@@ -39,6 +39,8 @@ export default function AdminUsers() {
     const columns = [
         { key: 'name', label: 'Name' },
         { key: 'email', label: 'Email' },
+        { key: 'bmi', label: 'BMI' },
+        { key: 'bmiClass', label: 'Classification' },
         { key: 'role', label: 'Role' },
     ];
 

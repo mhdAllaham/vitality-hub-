@@ -8,6 +8,10 @@ export default function RegisterPage() {
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
+    const [height, setHeight] = useState('');
+    const [weight, setWeight] = useState('');
+    const [gender, setGender] = useState('Male');
+    const [age, setAge] = useState('');
     const [error, setError] = useState('');
     const [loading, setLoading] = useState(false);
     const router = useRouter();
@@ -21,7 +25,15 @@ export default function RegisterPage() {
             const res = await fetch('/api/register', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({ name, email, password }),
+                body: JSON.stringify({
+                    name,
+                    email,
+                    password,
+                    height: parseFloat(height),
+                    weight: parseFloat(weight),
+                    gender,
+                    age: parseInt(age)
+                }),
             });
 
             const data = await res.json();
@@ -75,6 +87,54 @@ export default function RegisterPage() {
                             required
                             placeholder="••••••••"
                         />
+                    </div>
+                    <div className="form-group">
+                        <label className="form-label">Age</label>
+                        <input
+                            className="form-input"
+                            type="number"
+                            value={age}
+                            onChange={(e) => setAge(e.target.value)}
+                            required
+                            placeholder="e.g. 25"
+                        />
+                    </div>
+                    <div className="form-group">
+                        <label className="form-label">Gender</label>
+                        <select
+                            className="form-input"
+                            value={gender}
+                            onChange={(e) => setGender(e.target.value)}
+                            required
+                        >
+                            <option value="Male">Male</option>
+                            <option value="Female">Female</option>
+                        </select>
+                    </div>
+                    <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1rem' }}>
+                        <div className="form-group">
+                            <label className="form-label">Weight (kg)</label>
+                            <input
+                                className="form-input"
+                                type="number"
+                                step="0.1"
+                                value={weight}
+                                onChange={(e) => setWeight(e.target.value)}
+                                required
+                                placeholder="70"
+                            />
+                        </div>
+                        <div className="form-group">
+                            <label className="form-label">Height (cm)</label>
+                            <input
+                                className="form-input"
+                                type="number"
+                                value={height}
+                                onChange={(e) => setHeight(e.target.value)}
+                                required
+                                placeholder="175"
+                            />
+                        </div>
                     </div>
                     <button className="btn-primary" type="submit" disabled={loading} style={{ width: '100%', marginTop: '1rem' }}>
                         {loading ? 'Creating Account...' : 'Register'}

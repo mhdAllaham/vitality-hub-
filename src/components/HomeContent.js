@@ -4,6 +4,8 @@ import { useLanguage } from '@/context/LanguageContext';
 import HealthTipCard from '@/components/HealthTipCard';
 import BMICalculator from '@/components/BMICalculator';
 import Link from 'next/link';
+import ExpandableSection from '@/components/ExpandableSection';
+import { Droplets, Moon } from 'lucide-react';
 
 export default function HomeContent({ initialTip }) {
     const { t } = useLanguage();
@@ -50,6 +52,54 @@ export default function HomeContent({ initialTip }) {
                 }
             `}</style>
 
+            <ExpandableSection title={t('waterTitle')} color="var(--secondary)">
+                {t('waterCards')?.map((card, index) => (
+                    <div key={index} className="card glass" style={{ borderLeft: '3px solid var(--secondary)', padding: '0', overflow: 'hidden' }}>
+                        {card.image && (
+                            <div style={{ width: '100%', height: '150px', position: 'relative' }}>
+                                <img
+                                    src={card.image}
+                                    alt={card.title}
+                                    style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                                />
+                                <div style={{ position: 'absolute', bottom: '0', left: '0', right: '0', height: '100%', background: 'linear-gradient(to top, rgba(10,10,10,0.8), transparent)' }}></div>
+                            </div>
+                        )}
+                        <div style={{ padding: '1.2rem' }}>
+                            <div style={{ display: 'flex', alignItems: 'center', gap: '0.8rem', marginBottom: '0.5rem' }}>
+                                <Droplets size={20} color="var(--secondary)" />
+                                <h3 style={{ fontSize: '1.1rem', margin: 0 }}>{card.title}</h3>
+                            </div>
+                            <p style={{ fontSize: '0.85rem', color: '#a1a1aa' }}>{card.desc}</p>
+                        </div>
+                    </div>
+                ))}
+            </ExpandableSection>
+
+            <ExpandableSection title={t('sleepTitle')} color="#8b5cf6">
+                {t('sleepCards')?.map((card, index) => (
+                    <div key={index} className="card glass" style={{ borderLeft: '3px solid #8b5cf6', padding: '0', overflow: 'hidden' }}>
+                        {card.image && (
+                            <div style={{ width: '100%', height: '150px', position: 'relative' }}>
+                                <img
+                                    src={card.image}
+                                    alt={card.title}
+                                    style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                                />
+                                <div style={{ position: 'absolute', bottom: '0', left: '0', right: '0', height: '100%', background: 'linear-gradient(to top, rgba(10,10,10,0.8), transparent)' }}></div>
+                            </div>
+                        )}
+                        <div style={{ padding: '1.2rem' }}>
+                            <div style={{ display: 'flex', alignItems: 'center', gap: '0.8rem', marginBottom: '0.5rem' }}>
+                                <Moon size={20} color="#8b5cf6" />
+                                <h3 style={{ fontSize: '1.1rem', margin: 0 }}>{card.title}</h3>
+                            </div>
+                            <p style={{ fontSize: '0.85rem', color: '#a1a1aa' }}>{card.desc}</p>
+                        </div>
+                    </div>
+                ))}
+            </ExpandableSection>
+
             <section style={{ marginTop: '3rem' }}>
                 <h2 style={{ marginBottom: '1.5rem', padding: '0 0.5rem' }}>{t('explore')}</h2>
                 <div style={{
@@ -71,6 +121,6 @@ export default function HomeContent({ initialTip }) {
                     </Link>
                 </div>
             </section>
-        </div>
+        </div >
     );
 }
