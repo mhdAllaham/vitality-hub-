@@ -195,8 +195,7 @@ nav a:hover {
 /* PWA Enhancements */
 html,
 body {
-  overscroll-behavior-y: contain;
-  /* Prevent pull-to-refresh */
+  /* Prevent pull-to-refresh on mobile if needed, but 'contain' was blocking all scroll in some cases */
   -webkit-tap-highlight-color: transparent;
 }
 

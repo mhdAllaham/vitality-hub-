@@ -16,6 +16,7 @@ export default function AdminSidebar() {
         { name: 'Meal Plans', ar: 'خطط الوجبات', href: '/admin/meal-plans' },
         { name: 'Healthy Foods', ar: 'الأطعمة الصحية', href: '/admin/healthy-foods' },
         { name: 'Health Tips', ar: 'نصائح صحية', href: '/admin/tips' },
+        { name: 'Messages', ar: 'الرسائل', href: '/admin/messages' },
     ];
 
     return (

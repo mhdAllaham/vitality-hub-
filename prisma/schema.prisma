@@ -65,6 +65,7 @@ model MealPlan {
   createdAt     DateTime @default(now())
 }
 
+
 model HealthyFood {
   id          String   @id @default(cuid())
   categoryEn  String   // Fruits, Vegetables, Herbs
@@ -76,3 +77,14 @@ model HealthyFood {
   image       String?
   createdAt   DateTime @default(now())
 }
+
+model ContactInquiry {
+  id        String   @id @default(cuid())
+  name      String
+  email     String
+  subject   String
+  message   String
+  status    String   @default("unread") // unread, read, replied
+  createdAt DateTime @default(now())
+}
+
