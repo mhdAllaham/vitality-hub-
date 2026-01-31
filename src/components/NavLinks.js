@@ -12,6 +12,7 @@ export default function NavLinks() {
             <li><Link href="/exercises">{t('exercises')}</Link></li>
             <li><Link href="/meal-plans">{t('mealPlans')}</Link></li>
             <li><Link href="/healthy-foods">{t('healthyFoods')}</Link></li>
+            <li><Link href="/contact">{t('contact')}</Link></li>
             <li><Link href="/profile">{t('profile')}</Link></li>
         </ul>
     );

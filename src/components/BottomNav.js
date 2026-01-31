@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { useLanguage } from '@/context/LanguageContext';
 import { translations } from '@/lib/translations';
-import { Home, Dumbbell, Utensils, Apple, User } from 'lucide-react';
+import { Home, Dumbbell, Utensils, Apple, User, Mail } from 'lucide-react';
 
 export default function BottomNav() {
     const pathname = usePathname();
@@ -16,6 +16,7 @@ export default function BottomNav() {
         { href: '/exercises', icon: Dumbbell, label: t.exercises },
         { href: '/meal-plans', icon: Utensils, label: t.mealPlans },
         { href: '/healthy-foods', icon: Apple, label: t.healthyFoods },
+        { href: '/contact', icon: Mail, label: t.contact },
         { href: '/profile', icon: User, label: t.profile },
     ];
 
