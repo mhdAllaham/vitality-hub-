@@ -48,7 +48,7 @@ export default function ContactPage() {
             <div className="card glass" style={{ width: '100%', maxWidth: '600px' }}>
                 <h2 style={{ marginBottom: '1.5rem', textAlign: 'center', fontSize: '1.8rem' }}>Contact Us</h2>
                 <p style={{ textAlign: 'center', marginBottom: '2rem', color: '#a1a1aa' }}>
-                    Have any questions or suggestions? We'd love to hear from you.
+                    Have any questions or suggestions? We&apos;d love to hear from you.
                 </p>
 
                 {status === 'success' && (

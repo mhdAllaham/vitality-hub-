@@ -168,6 +168,7 @@ export default function AdminTable({ title, data, columns, onAdd, onEdit, onDele
 
                                             {formData[field.name] && (
                                                 <div style={{ marginTop: '0.5rem', position: 'relative', width: '100px', height: '60px', borderRadius: '4px', overflow: 'hidden', border: '1px solid var(--glass-border)' }}>
+                                                    {/* eslint-disable-next-line @next/next/no-img-element */}
                                                     <img src={formData[field.name]} alt="Preview" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
                                                 </div>
                                             )}

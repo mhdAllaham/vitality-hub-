@@ -57,6 +57,7 @@ export default function HomeContent({ initialTip }) {
                     <div key={index} className="card glass" style={{ borderLeft: '3px solid var(--secondary)', padding: '0', overflow: 'hidden' }}>
                         {card.image && (
                             <div style={{ width: '100%', height: '150px', position: 'relative' }}>
+                                {/* eslint-disable-next-line @next/next/no-img-element */}
                                 <img
                                     src={card.image}
                                     alt={card.title}
@@ -81,6 +82,7 @@ export default function HomeContent({ initialTip }) {
                     <div key={index} className="card glass" style={{ borderLeft: '3px solid #8b5cf6', padding: '0', overflow: 'hidden' }}>
                         {card.image && (
                             <div style={{ width: '100%', height: '150px', position: 'relative' }}>
+                                {/* eslint-disable-next-line @next/next/no-img-element */}
                                 <img
                                     src={card.image}
                                     alt={card.title}
